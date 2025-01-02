@@ -118,9 +118,13 @@
   .slogan-container {
     padding: 90px 50px;
   }
+  .banner-container {
+    height: 217lvh;
+  }
   .slogan-container h1 {
     font-size: 55px;
   }
+
   .bottle-branding {
     padding: 70px 0px 0px;
     gap: 50px;
@@ -384,6 +388,9 @@
   }
   .slogan-container h1 {
     font-size: 45px;
+  }
+  .banner-container {
+    height: 180lvh;
   }
   .bottle-branding img {
     width: 45%;
@@ -784,6 +791,9 @@
   }
   .slogan-container h1 {
     font-size: 33px;
+  }
+  .banner-container {
+    height: 138lvh;
   }
   .bottle-branding {
     flex-direction: column;
@@ -1267,6 +1277,9 @@
   }
   .slogan-container h1 {
     font-size: 25px;
+  }
+  .banner-container {
+    height: 100lvh;
   }
   .bottle-branding {
     padding: 35px 0px;
@@ -1843,6 +1856,9 @@
   }
   .slogan-container h1 {
     font-size: 21px;
+  }
+  .banner-container {
+    height: 50lvh;
   }
   .bottle-branding {
     padding: 0px;
