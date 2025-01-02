@@ -792,7 +792,7 @@ footer {
   padding: 30px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 3px;
 }
 .wheat-grass-contain ul:hover {
   background-color: black;

@@ -6,7 +6,8 @@
     gap: 0px;
   }
   .nav-ul {
-    gap: 30px;
+    gap: 25px;
+    margin-right: 40px;
   }
   /* nav-bar end */
 
@@ -51,6 +52,9 @@
   .animals-section {
     height: 100%;
   }
+  .manufacturing-img {
+    width: 40%;
+  }
   /* perfume page */
   .perfume-video-title h2 {
     font-size: 50px;
@@ -82,12 +86,12 @@
   .wheat-grass-video-title {
     height: 50%;
   }
-  .wheat-grass-contain img {
+  /* .wheat-grass-contain img {
     height: 132lvh;
-  }
+  } */
   /* juice page */
   .alovera-image-section {
-    height: 316lvh;
+    height: 230lvh;
   }
   .juice-business-section h2 {
     font-size: 50px;
@@ -107,12 +111,15 @@
   /* index page */
   /* nav-bar */
   .nav-bar {
-    justify-content: normal;
+    justify-content: space-between;
     gap: 0px;
   }
   .nav-ul {
     gap: 20px;
-    margin-right: 0px;
+    margin-right: 35px;
+  }
+  a {
+    font-size: 22px;
   }
   /* nav-bar end */
   .slogan-container {
@@ -382,8 +389,11 @@
     gap: 20px;
     margin-right: 30px;
   }
+  .logo-container {
+    width: 17%;
+  }
   .nav-bar {
-    gap: 20px;
+    gap: 0px;
     justify-content: space-between;
   }
   .slogan-container h1 {
@@ -674,7 +684,7 @@
   }
   .alovera-image-section {
     padding: 80px;
-    height: 200lvb;
+    height: 150lvb;
   }
   .juice-business-section h2 {
     font-size: 38px;
@@ -1135,6 +1145,7 @@
   /* juice page */
   .alovera-image-section h2 {
     font-size: 33px;
+    padding: 70px 35px;
   }
   .alovera-image-section {
     padding: 0px 30px 0px;
@@ -1870,6 +1881,9 @@
   }
   .fade-container {
     padding-top: 50px;
+  }
+  .fade-container {
+    padding-top: 45px;
   }
   .footer-a {
     height: 20px;
