@@ -12,20 +12,26 @@
   /* nav-bar end */
 
   .banner-container {
-    height: 300lvh;
+    height: 210lvh;
   }
   .bottle-branding {
-    gap: 70px;
+    gap: 50px;
   }
   .bottle-branding h2 {
-    font-size: 37px;
+    font-size: 32px;
+  }
+  .slogan-container h1 {
+    font-size: 65px;
   }
   .fade-container h2 {
-    font-size: 75px;
+    font-size: 70px;
   }
   /* about-us page */
   .our-section-card {
     padding: 47px;
+  }
+  .intro-para {
+    font-size: 20px;
   }
   .our-section-card h2 {
     text-align: center;
@@ -42,6 +48,9 @@
   .incorporate ul {
     font-size: 24px;
   }
+  .card-container-main h3 {
+    font-size: 38px;
+  }
   .card-container-all {
     justify-content: center;
     gap: 30px;
@@ -55,12 +64,17 @@
   .manufacturing-img {
     width: 40%;
   }
+  .animal-testing-quote {
+    font-size: 28px;
+    padding: 50px 0px 0px;
+  }
   /* perfume page */
   .perfume-video-title h2 {
     font-size: 50px;
   }
   .perfume-grade-alcohol-section h3 {
     font-size: 38px;
+    padding: 0px;
   }
   .perfume-grade-alcohol-section h1 {
     font-size: 75px;
@@ -68,20 +82,23 @@
   .percentage-level {
     padding: 50px;
   }
+  .percentage-level ul {
+    font-size: 25px;
+  }
   .guiding-of-perfume-section h3 {
     text-align: center;
-    font-size: 34px;
-    padding: 40px;
+    font-size: 30px;
+    padding: 30px;
   }
   .guiding-perfume-card h2 {
-    font-size: 32px;
+    font-size: 30px;
   }
   .different-smells h3 {
-    font-size: 30px;
+    font-size: 28px;
   }
   /* wheatgrass page */
   .wheat-grass-video-title h2 {
-    font-size: 47px;
+    font-size: 40px;
   }
   .wheat-grass-video-title {
     height: 50%;
@@ -101,6 +118,17 @@
   }
   .herbal-ul {
     gap: 30px;
+  }
+  .alovera-video-title {
+    left: 10%;
+    right: 10%;
+  }
+  .herbal-juice-and-powder-section h2 {
+    font-size: 50px;
+  }
+  /* trending-product page */
+  .our-range-card-h3 {
+    font-size: 28px;
   }
   /* contact-us page */
   .location-map {
