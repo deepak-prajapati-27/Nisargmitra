@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Nisargmitra</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="images/Nisargmitra-logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="logo-container">
+          <a href="index.html"
+            ><img src="images/Nisargmitra-logo.png" alt="" class="nav-logo"
+          /></a>
+        </div>
+        <button class="hamburger" aria-label="Toggle navigation">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+        <ul class="nav-ul">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="perfume.html">Perfume</a></li>
+          <li><a href="cosmetics.html">Cosmetics</a></li>
+          <li><a href="wheatgrass.html">WheatGrass</a></li>
+          <li><a href="Juice.html">Juice</a></li>
+          <li><a href="trending-products.html">Trending Products</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <div class="contact-us-section">
+      <div class="form-page">
+        <h2>Get In Touch With Us</h2>
+        <form
+          id="contact-form"
+          class="contact-form"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="2852c2a9-39d4-4199-a748-aec54636fed3"
+          />
+          <input
+            type="text"
+            placeholder="Name"
+            class="form-data"
+            id="fullName"
+            name="name"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            class="form-data"
+            id="email"
+            name="email"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Contact No."
+            class="form-data"
+            id="contact"
+            name="contact"
+            required
+          />
+          <textarea
+            id="message"
+            placeholder="Message"
+            class="form-data"
+            rows="4"
+            name="message"
+            required
+          ></textarea>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+      <div class="contact-us-main">
+        <div class="contact-info">
+          <i class="fa-solid fa-location-dot logo"></i>
+          <h3>Head Office:</h3>
+          <p>
+            Shop No. 108, <br />
+            Madhuveer Building, <br />
+            Near PHC center,
+            <br />
+            Dehri, Umbergaon, <br />
+            Gujarat-396170
+          </p>
+        </div>
+        <div class="contact-info">
+          <i class="fa-solid fa-location-dot logo"></i>
+          <h3>Factory:</h3>
+          <p>
+            Shed No. C1-1927, <br />
+            Near Water Tank, <br />
+            3 rd Phase, <br />
+            GIDC Umbergaon, <br />
+            Gujarat-396171
+          </p>
+        </div>
+        <div class="contact-info">
+          <i class="fa-solid fa-phone logo"></i>
+          <h3>Call:</h3>
+          <p>+91 73599 57561 <br />+91 96018 25249</p>
+        </div>
+        <div class="contact-info">
+          <i class="fa-solid fa-paper-plane logo"></i>
+          <h3>Email:</h3>
+          <p>
+            info@nisargmitra.in <br />
+            nisargmitraalovera@gmail.com <br />
+            nisargmitralifestyle@gmail.com
+          </p>
+        </div>
+      </div>
+      <div class="map">
+        <div class="single-map">
+          <h2>HEAD OFFICE</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29963.55023608728!2d72.7046030743164!3d20.15723990000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be72bce18f901dd%3A0x4686d2cdb91649d0!2sNisargmitra!5e0!3m2!1sen!2sin!4v1734691305472!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="location-map"
+          ></iframe>
+        </div>
+        <div class="single-map">
+          <h2>MANUFACTURING UNIT</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.0937217478186!2d72.77784807482367!3d20.171822881271634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be72b007a7572eb%3A0xbab718a69801c1d0!2sNisargmitra%20Factory!5e0!3m2!1sen!2sin!4v1734692569309!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="location-map"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <footer>
+      <div class="footer-main">
+        <div class="footer-socials">
+          <a href="" class="footer-a"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="" class="footer-a"><i class="fa-brands fa-twitter"></i></a>
+          <a
+            href="https://www.instagram.com/pietechnolab?igsh=MTRhazFqd3V5MWRuOQ=="
+            class="footer-a"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="" class="footer-a"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <p class="rights">
+          All Rights Reserved at Nisargmitra Lifestyle Pvt. Ltd.
+        </p>
+        <div class="footer-links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-and-condition.html">Terms and Conditions</a>
+        </div>
+      </div>
+    </footer>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendMail() {
+        Email.send({
+          Host: "smtp.gmail.com",
+          Username: "tejashpatelnisargmitra@gmail.com",
+          Password: "umb@factory123",
+          To: "tejashpatelnisargmitra@gmail.com",
+          From: document.getElementById("email").value,
+          Subject: "New form inquiry",
+          Body: "And this is the body",
+        }).then((message) => alertmessage);
+      }
+    </script> --><button id="backToTop" class="back-to-top">&#8679;</button>
+    <script src="script.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

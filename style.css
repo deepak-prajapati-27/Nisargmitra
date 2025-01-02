@@ -1,0 +1,1286 @@
+/* home page section css */
+
+/* universal  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+hr {
+  border: 2px solid #ccff33;
+}
+
+/* navbar */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+  gap: 20px;
+}
+.logo-container {
+  width: 20%;
+  padding-top: 10px;
+}
+.nav-logo {
+  width: 100%;
+}
+.nav-ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 40px;
+  margin-right: 60px;
+  z-index: 2;
+}
+a {
+  text-decoration: none;
+  color: #23c523;
+  font-family: Josefin Sans;
+  font-size: 24px;
+}
+a:hover {
+  color: white;
+  /* text-decoration-line: underline; */
+}
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24px;
+  height: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  height: 3px;
+  width: 100%;
+  background-color: #333;
+  border-radius: 2px;
+}
+
+/* banner- container */
+.banner-container {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgb(0 0 0 / 36%) 85%,
+      rgb(0 0 0) 100%
+    ),
+    url(images/banner-img-main.jpg);
+  height: 100vh;
+  /* width: 100vw; */
+  color: aliceblue;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 290px;
+  padding-left: 150px;
+}
+.banner-container h1 {
+  font-size: 50px;
+}
+/* slogan-container */
+
+.slogan-container {
+  background-color: black;
+  color: #23c523;
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.slogan-container h1 {
+  font-size: 70px;
+}
+.bottle-branding {
+  padding: 70px 0px;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+.bottle-branding img {
+  border-radius: 10px;
+  box-shadow: rgb(255, 255, 255) 0px 5px 15px 5px;
+}
+.bottle-branding h2 {
+  font-size: 40px;
+}
+.bottle-img {
+  transition: 0.3s ease;
+}
+.bottle-img:hover {
+  transform: scale(1.1);
+}
+
+/* fade-container */
+
+.fade-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  /* background-color: #70e000; */
+  opacity: 0.2;
+}
+.fade-container h2 {
+  font-size: 80px;
+  color: #000000;
+}
+
+/*  video container */
+
+.video-container {
+  display: flex;
+  position: relative;
+}
+
+/* footer */
+.footer-a {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #111;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+  position: relative;
+  transition: 0.5s;
+}
+
+.footer-a:hover {
+  color: #23c523;
+
+  box-shadow: 0 0 9px 7px #23c523;
+  text-shadow: 0px 0px 20px #23c523;
+}
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.footer-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.footer-links {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+footer {
+  background-color: black;
+  padding: 30px 0;
+}
+.footer-links a {
+  color: white;
+  opacity: 0.9;
+  font-size: 20px;
+}
+.footer-main p {
+  color: white;
+  opacity: 0.9;
+  font-size: 20px;
+}
+.poster-container .timeline-poster {
+  background-color: #e0ccbe;
+}
+.timeline-poster:hover {
+  transform: scale(0.9);
+  box-shadow: #b94c9c78 0px 2px 12px 5px,
+    rgba(56, 200, 102, 0.3) 0px 1px 3px -1px;
+}
+
+/* about us section css */
+
+/* intro-container */
+
+.intro-container {
+  background-color: #23c523;
+  padding: 100px;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cannabis-img {
+  width: 100%;
+  padding: 50px;
+}
+.intro-para {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  font-size: 22px;
+}
+.black-bg {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.abc {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* welcome-container */
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 100px;
+  text-align: center;
+}
+.welcome-container h2 {
+  font-size: 80px;
+  padding-bottom: 50px;
+}
+.welcome-brief-info {
+  font-size: 33px;
+  /* text-align: start; */
+  text-align: center;
+}
+.welcome-section-contain {
+  display: flex;
+  align-items: center;
+  padding: 100px;
+  text-align: start;
+  gap: 50px;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+.welcome-section-contain p {
+  font-size: 24px;
+  text-align: start;
+  color: black;
+}
+.manufacturing-img {
+  width: 30%;
+  border-radius: 20px;
+}
+
+/* our section */
+
+.our-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px;
+  background-color: #23c523;
+}
+.our-section-card {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 40%;
+  max-height: 490px;
+  padding: 100px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: all 0.5s;
+}
+.our-section-card:hover {
+  transform: scale(0.9);
+  box-shadow: rgb(0, 0, 0) 0px 2px 12px 5px, rgb(255, 254, 254) 0px 1px 3px -1px;
+}
+
+.our-section-card h2 {
+  font-weight: 800;
+  font-size: 48px;
+}
+.our-section-card p {
+  font-weight: 800;
+
+  font-size: 23px;
+  padding: 20px;
+}
+/* work-with-section */
+
+.work-with-section {
+  padding: 100px;
+  background-color: black;
+  color: white;
+}
+.work-with-section h2 {
+  font-size: 60px;
+  padding: 50px 0px;
+}
+.work-with-section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 24px;
+  /* padding: 100px; */
+  list-style-type: square;
+  /* text-align: center; */
+}
+
+/* quality-complaince-section */
+
+.quality-complaince-section {
+  padding: 100px;
+  background-color: #23c523;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+.quality-complaince-section h2 {
+  font-size: 60px;
+  padding: 50px 0px;
+}
+.quality-complaince-section p {
+  font-size: 30px;
+  font-weight: 900;
+  padding-bottom: 30px;
+}
+.quality-complaince-section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 24px;
+  /* padding: 100px; */
+  list-style-type: square;
+  /* text-align: center; */
+}
+
+/* corporate-section */
+
+.corporate-section {
+  padding: 100px;
+  background-color: black;
+  display: flex;
+  gap: 50px;
+}
+.incorporate {
+  color: black;
+  border: 5px solid white;
+  width: 50%;
+  background-color: white;
+  padding: 50px;
+  border-radius: 50px;
+  -webkit-box-shadow: inset -5px 9px 70px 8px rgba(0, 0, 0, 1);
+  -moz-box-shadow: inset -5px 9px 70px 8px rgba(0, 0, 0, 1);
+  box-shadow: inset -5px 9px 70px 8px rgba(0, 0, 0, 1);
+}
+.incorporate h2 {
+  font-size: 54px;
+  text-align: center;
+}
+.incorporate ul {
+  font-size: 25px;
+  padding: 50px;
+}
+.incorporate li {
+  padding: 10px;
+}
+.donot-incorporate {
+  color: black;
+  border: 5px solid white;
+  width: 50%;
+  background-color: white;
+  padding: 50px;
+  border-radius: 50px;
+  -webkit-box-shadow: inset -5px 9px 70px 8px rgba(0, 0, 0, 1);
+  -moz-box-shadow: inset -5px 9px 70px 8px rgba(0, 0, 0, 1);
+  box-shadow: inset -5px 9px 70px 8px rgba(0, 0, 0, 1);
+}
+.donot-incorporate h2 {
+  font-size: 54px;
+  text-align: center;
+}
+.donot-incorporate ul {
+  font-size: 25px;
+  padding: 50px;
+}
+.donot-incorporate li {
+  padding: 10px;
+}
+
+/* process-of-making-section */
+
+.process-of-making-section {
+  padding: 100px;
+  background-color: #23c523;
+  color: white;
+}
+.process-of-making-section h2 {
+  padding: 50px;
+  font-size: 60px;
+  text-align: center;
+}
+.card-container-main {
+  background-color: black;
+  padding: 50px;
+  border-radius: 30px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+.making-process-card-container {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.making-process-card-container img {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 3px solid white;
+  padding: 5px;
+}
+.making-process-card-container img:hover {
+  transform: scale(1.1);
+  transition: all 0.9s;
+}
+.making-process-card-container p {
+  font-size: 21px;
+  font-weight: 800;
+}
+.card-container-all {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+}
+.numbering-p {
+  background-color: black;
+  border: 4px solid #23c523;
+  padding: 10px;
+  width: 50px;
+  color: white;
+  height: 50px;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-container-main h3 {
+  padding: 100px 50px 0px 50px;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 800;
+}
+
+/* animal section */
+.animals-section {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.854) 0,
+      rgb(0 0 0 / 48%) 59%,
+      rgb(0 0 0 / 94%) 100%
+    ),
+    url(https://img.freepik.com/free-photo/adorable-young-eastern-cottontail-rabbit-closeup-green-grass_181624-38929.jpg?t=st=1733917536~exp=1733921136~hmac=dfdadd8c401c6eb7cd672bb9f9a3f198ff4407634772feb290ad9ccf7f357551&w=996);
+
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: black; */
+  color: white;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.animals-section h2 {
+  text-align: center;
+  font-size: 60px;
+}
+.no-animal-testing {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.no-animal-testing h3 {
+  font-size: 40px;
+}
+.no-animal-testing ul {
+  font-size: 25px;
+  /* list-style-type: disc; */
+}
+.animal-testing-quote {
+  text-align: center;
+  font-size: 32px;
+  padding: 50px;
+}
+
+/* perfume section  */
+
+/* video-section */
+
+.video-section {
+  position: relative;
+}
+.perfume-video-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 10px;
+}
+.perfume-video-title h2 {
+  font-size: 60px;
+  text-align: center;
+  color: black;
+  opacity: 0.7;
+}
+
+/* perfume-grade-alcohol-section */
+.perfume-grade-alcohol-section {
+  padding: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.perfume-grade-alcohol-section h1 {
+  font-size: 80px;
+  text-align: center;
+}
+.perfume-grade-alcohol-section h3 {
+  font-size: 42px;
+  text-align: center;
+  padding: 0 100px;
+}
+.perfume-testing {
+  background-color: black;
+  opacity: 0.9;
+}
+.percentage-level {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #967aa1;
+  padding: 100px;
+  color: black;
+  border-radius: 30px;
+  border: 10px solid #795757;
+}
+.percentage-level ul {
+  font-size: 29px;
+  font-weight: 800;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  list-style-type: square;
+}
+.design-perfume-bottle {
+  width: 100%;
+  padding: 10px;
+}
+.perfume-bottle-img {
+  border: 5px solid black;
+  width: 100%;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+.perfume-bottle-img:hover {
+  opacity: 0.9;
+  transition: 0.6s ease;
+}
+
+/* guiding-of-perfume-section */
+.guiding-of-perfume-section {
+  background-color: #23c523;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.guiding-of-perfume-section h3 {
+  font-size: 39px;
+  background-color: black;
+  padding: 50px;
+  color: white;
+  border-radius: 100px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.guiding-main-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.guiding-perfume-card {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-radius: 50px;
+  padding: 50px;
+  background-color: black;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.guiding-perfume-card h2 {
+  font-size: 35px;
+  text-decoration: underline;
+}
+.guiding-perfume-card ul {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* types-of-smell-section */
+.types-of-smell-section {
+  background-color: black;
+  padding: 100px;
+  color: white;
+}
+
+.types-of-smell-section h2 {
+  font-size: 60px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.all-smells {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.different-smells {
+  /* text-align: center; */
+  width: 23%;
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  /* border: 5px solid red; */
+}
+.different-smells h3 {
+  font-size: 32px;
+  text-align: center;
+  padding: 50px 0;
+}
+.different-smells ul {
+  padding: 10px 10px 50px 40px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 800;
+}
+
+/* wheat-grass */
+/* wheat-grass-video-section */
+
+.wheat-grass-video-section {
+  position: relative;
+}
+.wheat-grass {
+  opacity: 0.9;
+}
+.wheat-grass-video-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  /* opacity: 0.8; */
+}
+.wheat-grass-video-title h2 {
+  font-size: 51px;
+  text-align: center;
+  /* background-color: white; */
+  padding: 10px;
+  color: black;
+  opacity: 0.9;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.characteristics-and-properties-section {
+  background-color: black;
+  color: white;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.characteristics-and-properties-section h2 {
+  font-size: 60px;
+  text-align: center;
+}
+.wheat-grass-contain-main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: whitesmoke;
+  color: black;
+  padding: 100px;
+  border-radius: 50px;
+}
+.wheat-grass-contain-main h4 {
+  font-size: 40px;
+  text-align: center;
+  background-color: grey;
+  color: black;
+  padding: 50px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.wheat-grass-contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.wheat-grass-contain ul {
+  font-size: 20px;
+  font-weight: 800;
+  border: 5px solid black;
+  border-radius: 50px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.wheat-grass-contain ul:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s ease;
+}
+.wheat-grass-contain img {
+  border: 5px solid black;
+  width: 50%;
+  border-radius: 50px;
+  /* background-color: black; */
+}
+
+/* practicing-for-farming-section */
+.practicing-for-farming-section {
+  background-color: #23c523;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.practicing-for-farming-section h2 {
+  font-size: 60px;
+}
+.practicing-for-farming-section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-weight: 800;
+  font-size: 24px;
+  list-style-type: square;
+}
+/* wheat-grass-packaging-section */
+.wheat-grass-packaging-section {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgb(0 0 0 / 36%) 85%,
+      rgb(0 0 0) 100%
+    ),
+    url(images/wheat-grass-powder-bowl.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  opacity: 0.9;
+  /* background-color: black; */
+  padding: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.wheat-grass-packaging-section h2 {
+  font-size: 60px;
+  text-shadow: 5px 0px black;
+}
+
+.wheat-grass-packaging-section ul {
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+  display: flex;
+  width: 39%;
+  flex-direction: column;
+  gap: 30px;
+  font-weight: 800;
+  font-size: 24px;
+  list-style-type: square;
+  text-shadow: 1px 0px #fdffb6;
+}
+/* wheat-grass-benefit-section */
+.wheat-grass-benefit-section {
+  background-color: #23c523;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.wheat-grass-benefit-section h2 {
+  font-size: 60px;
+}
+.wheat-grass-benefit-section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 24px;
+  font-weight: 800;
+  list-style-type: square;
+}
+/* wheat-grass-effect-section */
+.wheat-grass-effect-section {
+  background-color: black;
+  width: 100%;
+  padding: 100px;
+}
+.wheat-grass-effect-section h2 {
+  font-size: 60px;
+}
+
+.wheat-grass-effect-section ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 30px;
+  font-size: 24px;
+  font-weight: 800;
+  list-style-type: square;
+}
+
+.wheat-grass-effect {
+  background-color: white;
+  color: black;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-radius: 50px;
+}
+.wheat-grass-effect:hover {
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  transition: 0.9s ease;
+}
+
+/* juice */
+/* alovera-image-section */
+.alovera-image-section {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgb(0 0 0 / 36%) 85%,
+      rgb(0 0 0) 100%
+    ),
+    url(images/glass-aloe-vera-juice-put-white-floor.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100lvb;
+  padding: 100px;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.alovera-image-section h2 {
+  opacity: 0.9;
+  color: black;
+  text-shadow: 1px 2px whitesmoke;
+  font-size: 60px;
+  padding: 50px 0;
+}
+.alovera-image-section h3 {
+  font-size: 30px;
+}
+.juice-business-section {
+  background-color: black;
+  color: white;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.juice-business-section h2 {
+  font-size: 60px;
+  background-color: #23c523;
+  padding: 50px;
+  color: black;
+  border-radius: 30px;
+  text-shadow: 2px 1px white;
+  text-align: center;
+}
+.juice-business-section h3 {
+  font-size: 50px;
+}
+.juice-business-section ul {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.juice-busniess {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+/* alovera-video-section */
+
+.alovera-video-title h2 {
+  font-size: 60px;
+  text-align: center;
+
+  padding: 10px;
+  color: black;
+  opacity: 0.6;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.alovera-video-section {
+  position: relative;
+}
+.alovera-video-title {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+.juice-business-para {
+  font-size: 30px;
+}
+
+/* herbal-juice-and-powder-section */
+.herbal-juice-and-powder-section {
+  padding: 100px;
+  background-color: #23c523;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+/* .herbal-juice-and-powder-ul {
+  display: flex;
+  gap: 40px; */
+.herbal-juice-and-powder-section h2 {
+  font-size: 60px;
+  text-align: center;
+}
+.herbal-juice-and-powder-section h3 {
+  font-size: 45px;
+  text-align: center;
+}
+.herbal-juice-and-powder {
+  display: flex;
+  gap: 50px;
+}
+.herbal-ul {
+  display: flex;
+  gap: 50px;
+}
+.herbal {
+  width: 49%;
+  border: 5px solid black;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  justify-content: center;
+}
+.herbal ul {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 800;
+  gap: 20px;
+}
+
+/* trending-Products */
+
+/* trending-products-section */
+
+.trending-product-video {
+  opacity: 0.9;
+}
+
+/* our-range-section */
+
+.our-range-section-green-bg {
+  background-color: #23c523;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.our-range-section-green-bg h2 {
+  font-size: 80px;
+  text-align: center;
+}
+.our-range-card-container {
+  display: flex;
+  gap: 20px;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+}
+.our-range-card-green-bg {
+  width: 32%;
+  border: 5px solid white;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  gap: 30px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.our-range-card-black-bg {
+  width: 32%;
+  border: 5px solid white;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  gap: 30px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.our-range-card-h3 {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+.our-range-card-ul {
+  padding: 0 15px;
+  font-size: 18px;
+}
+.our-range-card-img {
+  border-radius: 15px 15px 0px 0px;
+  overflow: hidden;
+}
+.our-range-card-img:hover {
+  transform: scale(1.1);
+  transition: all 0.6s;
+}
+
+.our-range-section-black-bg {
+  background-color: #3c3d37;
+  padding: 100px;
+}
+.our-range-ul {
+  display: flex;
+  gap: 20px;
+}
+.our-range-card-details {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* contact-us */
+.contact-us-section {
+  padding: 100px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.contact-us-main {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 20px;
+  width: 18%;
+  text-align: center;
+  color: white;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+  background-color: #bc9864;
+  border-radius: 50%;
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+.contact-info h3 {
+  color: #bc9864;
+  font-size: 30px;
+}
+.contact-info p {
+  /* color: #bc9864; */
+  font-size: 20px;
+  font-family: 800;
+}
+.form-page {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px;
+}
+.form-page h2 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.form-data {
+  width: 60%;
+  /* height: 50px; */
+  border-radius: 10px;
+  background-color: #bc9864;
+  border-color: #bc9864;
+  font-size: 20px;
+  padding: 0 30px;
+  font-weight: 800;
+  padding: 1vw 4vw;
+  /* border: none; */
+}
+.form-data::placeholder {
+  color: black;
+  /* font-weight: 800; */
+  opacity: 1;
+}
+.form-data:focus {
+  border: 2px solid white;
+}
+.submit-btn {
+  background: white;
+  border-color: #bc9864;
+  /* color: #bc9864; */
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 40%;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  height: 50px;
+}
+
+.submit-btn:hover {
+  background-color: #a57f48;
+  color: black;
+  cursor: pointer;
+}
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  /* padding: 100px; */
+  /* background-color: white; */
+}
+.location-map {
+  padding: 20px;
+  border: 5px solid white;
+}
+.single-map {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.single-map h2 {
+  font-size: 30px;
+}
+
+/* scroll arrow  */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: none; /* Hidden by default */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.back-to-top:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
