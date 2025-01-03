@@ -91,7 +91,7 @@
     padding: 30px;
   }
   .guiding-perfume-card h2 {
-    font-size: 30px;
+    font-size: 28px;
   }
   .different-smells h3 {
     font-size: 28px;
@@ -2196,5 +2196,126 @@
   }
   .single-map {
     gap: 25px;
+  }
+}
+@media (max-width: 376px) {
+  /* index page */
+  /* nav-bar */
+  .logo-container {
+    width: 40%;
+  }
+  /* nav-bar-ends */
+  .slogan-container h1 {
+    font-size: 17px;
+  }
+  .bottle-branding img {
+    width: 75%;
+  }
+  .bottle-branding h2 {
+    font-size: 18px;
+  }
+  .fade-container h2 {
+    font-size: 20px;
+  }
+  .fade-container {
+    padding-top: 40px;
+  }
+  /* footer */
+  .footer-a {
+    height: 10px;
+    width: 10px;
+  }
+  /* about-us */
+  .intro-container {
+    padding: 30px;
+  }
+  .welcome-container {
+    padding: 30px;
+  }
+  .welcome-container h2 {
+    font-size: 25px;
+  }
+  .our-section {
+    padding: 30px;
+  }
+  .our-section-card h2 {
+    font-size: 25px;
+  }
+  .work-with-section {
+    padding: 30px;
+  }
+  .work-with-section h2 {
+    font-size: 25px;
+  }
+  .quality-complaince-section h2 {
+    font-size: 25px;
+  }
+  .quality-complaince-section {
+    padding: 30px;
+  }
+  .corporate-section {
+    padding: 30px;
+  }
+  .incorporate {
+    border-radius: 30px;
+    padding: 20px;
+  }
+  .donot-incorporate {
+    border-radius: 30px;
+    padding: 20px;
+  }
+  .process-of-making-section {
+    padding: 30px;
+  }
+  .process-of-making-section h2 {
+    font-size: 25px;
+  }
+  .making-process-card-container p {
+    font-size: 20px;
+  }
+  .card-container-main h3 {
+    font-size: 21px;
+  }
+  .animals-section {
+    padding: 30px;
+    height: 0%;
+  }
+  .animals-section h2 {
+    font-size: 25px;
+  }
+  .no-animal-testing h3 {
+    font-size: 21px;
+  }
+  /* perfume-page */
+  .perfume-video-title h2 {
+    font-size: 14px;
+  }
+  .perfume-grade-alcohol-section {
+    padding: 30px;
+    gap: 30px;
+  }
+  .perfume-grade-alcohol-section h1 {
+    font-size: 25px;
+  }
+  .perfume-grade-alcohol-section h3 {
+    font-size: 17px;
+  }
+  .percentage-level ul {
+    font-size: 14px;
+  }
+  .guiding-of-perfume-section {
+    padding: 30px;
+  }
+  .guiding-of-perfume-section h3 {
+    font-size: 17px;
+  }
+  .types-of-smell-section {
+    padding: 30px;
+  }
+  .all-smells {
+    gap: 30px;
+  }
+  .wheat-grass-video-title h2 {
+    font-size: 11px;
   }
 }
