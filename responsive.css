@@ -1887,6 +1887,9 @@
   .hamburger {
     margin: 0px;
   }
+  .logo-container {
+    width: 45%;
+  }
   .banner-container {
     height: 100%;
   }
@@ -1894,7 +1897,7 @@
     padding: 30px;
   }
   .slogan-container h1 {
-    font-size: 21px;
+    font-size: 20px;
   }
   .banner-container {
     height: 50lvh;
@@ -1920,13 +1923,22 @@
   .footer-socials {
     gap: 30px;
   }
+  .fade-container h2 {
+    font-size: 22px;
+  }
 
   /* about us page   */
   .intro-para {
     padding: 20px;
     font-size: 10px;
   }
-
+  .intro-container {
+    padding: 40px;
+  }
+  .welcome-container {
+    padding: 40px;
+    gap: 25px;
+  }
   .cannabis-img-container {
     width: 100%;
   }
@@ -1934,13 +1946,19 @@
     font-size: 27px;
   }
   .welcome-brief-info {
-    font-size: 16px;
+    font-size: 17px;
   }
   .welcome-section-contain p {
-    font-size: 16px;
+    font-size: 17px;
   }
-  .welcome-container {
-    gap: 25px;
+  .our-section {
+    padding: 40px;
+  }
+  .work-with-section {
+    padding: 40px;
+  }
+  .quality-complaince-section {
+    padding: 40px;
   }
   .our-section-card h2 {
     font-size: 27px;
@@ -1958,9 +1976,7 @@
   .work-with-section {
     gap: 20px;
   }
-  .work-with-section ul {
-    font-size: 16px;
-  }
+
   .quality-complaince-section h2 {
     font-size: 27px;
     text-align: start;
@@ -1968,9 +1984,11 @@
   .quality-complaince-section p {
     font-size: 17px;
   }
-  .quality-complaince-section ul {
-    gap: 5px;
-    font-size: 16px;
+  .corporate-section {
+    padding: 40px;
+  }
+  .process-of-making-section {
+    padding: 40px;
   }
   .incorporate h2 {
     font-size: 27px;
@@ -1994,10 +2012,17 @@
     gap: 6px;
   }
   .process-of-making-section h2 {
-    font-size: 27px;
+    font-size: 25px;
+  }
+  .making-process-card-container p {
+    font-size: 21px;
   }
   .card-container-main h3 {
     font-size: 23px;
+  }
+  .animals-section {
+    padding: 40px;
+    height: 0%;
   }
   .animals-section h2 {
     font-size: 27px;
@@ -2016,6 +2041,9 @@
   .perfume-video-title h2 {
     font-size: 17px;
   }
+  .perfume-grade-alcohol-section {
+    padding: 40px;
+  }
   .perfume-grade-alcohol-section h1 {
     font-size: 27px;
   }
@@ -2024,12 +2052,12 @@
     padding: 0px;
   }
   .percentage-level ul {
-    font-size: 16px;
+    font-size: 19px;
   }
   .percentage-level {
     flex-direction: column;
     gap: 30px;
-    padding: 20px;
+    padding: 30px;
     border: 3px solid #795757;
     border-radius: 15px;
   }
@@ -2037,6 +2065,9 @@
     font-size: 17px;
     padding: 10px;
     border-radius: 10px;
+  }
+  .guiding-of-perfume-section {
+    padding: 40px;
   }
   .guiding-perfume-card ul {
     font-size: 16px;
@@ -2050,18 +2081,20 @@
   }
   .types-of-smell-section {
     gap: 30px;
+    padding: 40px;
   }
   .different-smells h3 {
     font-size: 23px;
     padding: 20px 0px 10px 0;
   }
+  /* wheatgrass page */
   .wheat-grass-video-title {
     /* left: 20px; */
     /* width: 90%; */
     top: 50px;
   }
   .wheat-grass-video-title h2 {
-    font-size: 15px;
+    font-size: 13px;
   }
   .characteristics-and-properties-section h2 {
     font-size: 21px;
@@ -2206,13 +2239,13 @@
   }
   /* nav-bar-ends */
   .slogan-container h1 {
-    font-size: 17px;
+    font-size: 18px;
   }
   .bottle-branding img {
-    width: 75%;
+    width: 80%;
   }
   .bottle-branding h2 {
-    font-size: 18px;
+    font-size: 19px;
   }
   .fade-container h2 {
     font-size: 20px;
@@ -2232,15 +2265,11 @@
   .welcome-container {
     padding: 30px;
   }
-  .welcome-container h2 {
-    font-size: 25px;
-  }
+
   .our-section {
     padding: 30px;
   }
-  .our-section-card h2 {
-    font-size: 25px;
-  }
+
   .work-with-section {
     padding: 30px;
   }
@@ -2268,7 +2297,7 @@
     padding: 30px;
   }
   .process-of-making-section h2 {
-    font-size: 25px;
+    font-size: 26px;
   }
   .making-process-card-container p {
     font-size: 20px;
@@ -2286,22 +2315,29 @@
   .no-animal-testing h3 {
     font-size: 21px;
   }
+  .animal-testing-quote {
+    font-size: 16px;
+  }
   /* perfume-page */
   .perfume-video-title h2 {
-    font-size: 14px;
+    font-size: 15px;
   }
   .perfume-grade-alcohol-section {
     padding: 30px;
     gap: 30px;
   }
-  .perfume-grade-alcohol-section h1 {
-    font-size: 25px;
-  }
+
   .perfume-grade-alcohol-section h3 {
     font-size: 17px;
   }
   .percentage-level ul {
-    font-size: 14px;
+    font-size: 15px;
+  }
+  .guiding-perfume-card h2 {
+    font-size: 19px;
+  }
+  .design-perfume-bottle {
+    padding: 0px;
   }
   .guiding-of-perfume-section {
     padding: 30px;
@@ -2315,7 +2351,51 @@
   .all-smells {
     gap: 30px;
   }
+
+  /* wheat-grass page */
   .wheat-grass-video-title h2 {
-    font-size: 11px;
+    font-size: 12px;
+  }
+  .characteristics-and-properties-section {
+    padding: 30px;
+  }
+  .practicing-for-farming-section {
+    padding: 30px;
+  }
+  .wheat-grass-benefit-section {
+    padding: 30px;
+  }
+  .wheat-grass-effect-section {
+    padding: 30px;
+  }
+  /* juice page */
+  .alovera-image-section {
+    height: 60lvh;
+  }
+  .alovera-image-section h2 {
+    font-size: 19px;
+    padding: 8px 0px;
+  }
+  .alovera-image-section {
+    padding: 20px 20px;
+  }
+  .juice-business-section {
+    padding: 30px;
+  }
+  .alovera-video-title h2 {
+    font-size: 18px;
+  }
+  .herbal-juice-and-powder-section {
+    padding: 30px;
+  }
+  .our-range-section-green-bg {
+    padding: 30px;
+  }
+  /* contact us page */
+  .contact-us-section {
+    padding: 30px;
+  }
+  .location-map {
+    height: 50vh;
   }
 }
