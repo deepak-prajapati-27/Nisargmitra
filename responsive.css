@@ -28,7 +28,8 @@
   }
   /* about-us page */
   .our-section-card {
-    padding: 47px;
+    padding: 45px;
+    width: 46%;
   }
   .intro-para {
     font-size: 20px;
