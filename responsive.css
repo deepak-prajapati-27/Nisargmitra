@@ -1890,6 +1890,9 @@
 }
 @media (max-width: 427px) {
   /* index page */
+  .nav-ul {
+    gap: 10px;
+  }
   .hamburger {
     margin: 0px;
   }
