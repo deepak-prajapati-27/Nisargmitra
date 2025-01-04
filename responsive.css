@@ -103,6 +103,9 @@
   .wheat-grass-video-title {
     height: 50%;
   }
+  .wheat-grass-contain img {
+    width: 49%;
+  }
   /* .wheat-grass-contain img {
     height: 132lvh;
   } */
@@ -322,7 +325,7 @@
     padding: 30px;
   }
   .wheat-grass-contain img {
-    height: 380px;
+    height: 330px;
   }
   .practicing-for-farming-section {
     padding: 90px;
@@ -813,7 +816,10 @@
 
   .nav-ul.show {
     display: flex;
+    padding: 20px;
+    background-color: #3c3d37;
   }
+
   .logo-container {
     width: 30%;
     padding-top: 0px;
@@ -1112,7 +1118,7 @@
   .wheat-grass-contain ul {
     font-size: 19px;
     border-radius: 30px;
-    padding: 30px 10px 30px 30px;
+    padding: 30px;
     gap: 5px;
   }
   .wheat-grass-contain-main {
@@ -1167,7 +1173,7 @@
     font-size: 20px;
   }
   .wheat-grass-contain img {
-    width: 80%;
+    width: 100%;
   }
 
   /* juice page */
@@ -2096,6 +2102,18 @@
   .wheat-grass-video-title h2 {
     font-size: 13px;
   }
+  .characteristics-and-properties-section {
+    padding: 40px;
+  }
+  .practicing-for-farming-section {
+    padding: 40px;
+  }
+  .wheat-grass-benefit-section {
+    padding: 40px;
+  }
+  .wheat-grass-effect-section {
+    padding: 40px;
+  }
   .characteristics-and-properties-section h2 {
     font-size: 21px;
   }
@@ -2121,7 +2139,7 @@
     font-size: 16px;
   }
   .wheat-grass-packaging-section {
-    padding: 30px;
+    padding: 40px;
   }
   .wheat-grass-packaging-section h2 {
     font-size: 24px;
@@ -2149,13 +2167,33 @@
   }
 
   /* juice page */
+  .alovera-image-section {
+    height: 65vh;
+  }
+  .alovera-image-section {
+    padding: 30px 20px;
+  }
+  .juice-business-section {
+    padding: 40px;
+  }
   .alovera-image-section h2 {
-    font-size: 23px;
-    padding: 20px 0px;
+    font-size: 20px;
+  }
+  .herbal-juice-and-powder-section {
+    padding: 40px;
   }
   .juice-business-section h2 {
     font-size: 23px;
     padding: 10px;
+  }
+  .our-range-section-green-bg {
+    padding: 40px;
+  }
+  .our-range-section-black-bg {
+    padding: 40px;
+  }
+  .contact-us-section {
+    padding: 40px;
   }
   .juice-business-section h3 {
     font-size: 23px;
@@ -2229,6 +2267,9 @@
   }
   .single-map {
     gap: 25px;
+  }
+  .location-map {
+    height: 50vh;
   }
 }
 @media (max-width: 376px) {
