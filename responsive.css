@@ -12,7 +12,7 @@
   /* nav-bar end */
 
   .banner-container {
-    height: 210lvh;
+    height: 63vw;
   }
   .bottle-branding {
     gap: 50px;
@@ -37,16 +37,19 @@
     text-align: center;
   }
   .donot-incorporate h2 {
-    font-size: 45px;
+    font-size: 40px;
   }
   .incorporate h2 {
-    font-size: 45px;
+    font-size: 40px;
   }
   .donot-incorporate ul {
     font-size: 24px;
   }
   .incorporate ul {
     font-size: 24px;
+  }
+  .work-with-section h2 {
+    font-size: 58px;
   }
   .card-container-main h3 {
     font-size: 38px;
@@ -111,7 +114,13 @@
   } */
   /* juice page */
   .alovera-image-section {
-    height: 230lvh;
+    height: 200lvh;
+  }
+  .alovera-image-section h2 {
+    padding: 20px 0;
+  }
+  .alovera-video-title h2 {
+    font-size: 55px;
   }
   .juice-business-section h2 {
     font-size: 50px;
