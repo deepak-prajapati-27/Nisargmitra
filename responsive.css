@@ -1898,7 +1898,7 @@
     font-size: 25px;
   }
 }
-@media (max-width: 427px) {
+@media (max-width: 428px) {
   /* index page */
   .nav-ul {
     gap: 10px;
@@ -2251,7 +2251,7 @@
 
   /* contact us page */
   .form-page h2 {
-    font-size: 28px;
+    font-size: 30px;
   }
   .form-data {
     width: 80%;
