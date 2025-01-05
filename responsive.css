@@ -1962,7 +1962,7 @@
     width: 100%;
   }
   .welcome-container h2 {
-    font-size: 27px;
+    font-size: 25px;
   }
   .welcome-brief-info {
     font-size: 17px;
@@ -2058,16 +2058,16 @@
 
   /* perfume page */
   .perfume-video-title h2 {
-    font-size: 17px;
+    font-size: 16px;
   }
   .perfume-grade-alcohol-section {
     padding: 40px;
   }
   .perfume-grade-alcohol-section h1 {
-    font-size: 27px;
+    font-size: 25px;
   }
   .perfume-grade-alcohol-section h3 {
-    font-size: 18px;
+    font-size: 17px;
     padding: 0px;
   }
   .percentage-level ul {
@@ -2181,16 +2181,15 @@
 
   /* juice page */
   .alovera-image-section {
-    height: 65vh;
-  }
-  .alovera-image-section {
+    height: 55vh;
     padding: 30px 20px;
   }
+
   .juice-business-section {
     padding: 40px;
   }
   .alovera-image-section h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .herbal-juice-and-powder-section {
     padding: 40px;
@@ -2219,7 +2218,7 @@
     font-size: 17px;
   }
   .alovera-video-title h2 {
-    font-size: 20px;
+    font-size: 17px;
   }
   .herbal-juice-and-powder-section h2 {
     font-size: 23px;
@@ -2252,7 +2251,7 @@
 
   /* contact us page */
   .form-page h2 {
-    font-size: 30px;
+    font-size: 28px;
   }
   .form-data {
     width: 80%;
