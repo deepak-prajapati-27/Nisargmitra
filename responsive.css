@@ -1971,7 +1971,7 @@
     font-size: 17px;
   }
   .our-section {
-    padding: 40px;
+    padding: 100px 40px;
   }
   .work-with-section {
     padding: 40px;
@@ -1981,6 +1981,7 @@
   }
   .our-section-card h2 {
     font-size: 27px;
+    /* text-align: start; */
   }
   .our-section-card {
     gap: 30px;
@@ -1991,6 +1992,7 @@
   }
   .work-with-section h2 {
     font-size: 27px;
+    text-align: start;
   }
   .work-with-section {
     gap: 20px;
@@ -2031,7 +2033,7 @@
     gap: 6px;
   }
   .process-of-making-section h2 {
-    font-size: 25px;
+    font-size: 26px;
   }
   .making-process-card-container p {
     font-size: 21px;
@@ -2218,7 +2220,7 @@
     font-size: 17px;
   }
   .alovera-video-title h2 {
-    font-size: 17px;
+    font-size: 19px;
   }
   .herbal-juice-and-powder-section h2 {
     font-size: 23px;
