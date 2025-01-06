@@ -451,7 +451,7 @@ footer {
   /* flex-wrap: wrap; */
 }
 .making-process-card-container {
-  width: 24%;
+  width: 23%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -470,13 +470,14 @@ footer {
   transition: all 0.9s;
 }
 .making-process-card-container p {
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 800;
 }
 .card-container-all {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+  justify-content: center;
   /* flex-direction: column; */
   /* flex-wrap: wrap; */
 }
@@ -510,7 +511,7 @@ footer {
     ),
     url(https://img.freepik.com/free-photo/adorable-young-eastern-cottontail-rabbit-closeup-green-grass_181624-38929.jpg?t=st=1733917536~exp=1733921136~hmac=dfdadd8c401c6eb7cd672bb9f9a3f198ff4407634772feb290ad9ccf7f357551&w=996);
 
-  height: 100vh;
+  /* height: 100vh; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -540,7 +541,7 @@ footer {
 .animal-testing-quote {
   text-align: center;
   font-size: 32px;
-  padding: 50px;
+  padding: 50px 0px;
 }
 
 /* perfume section  */
@@ -583,7 +584,7 @@ footer {
   text-align: center;
 }
 .perfume-grade-alcohol-section h3 {
-  font-size: 42px;
+  font-size: 39px;
   text-align: center;
   padding: 0 100px;
 }
@@ -634,7 +635,7 @@ footer {
   gap: 70px;
 }
 .guiding-of-perfume-section h3 {
-  font-size: 39px;
+  font-size: 36px;
   background-color: black;
   padding: 50px;
   color: white;
@@ -802,6 +803,7 @@ footer {
 .wheat-grass-contain img {
   border: 5px solid black;
   border-radius: 15px;
+  width: 36%;
   /* background-color: black; */
 }
 
@@ -931,7 +933,7 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 160lvb;
+  height: 100lvb;
   padding: 100px;
   text-align: end;
   display: flex;
@@ -957,7 +959,7 @@ footer {
   gap: 50px;
 }
 .juice-business-section h2 {
-  font-size: 60px;
+  font-size: 57px;
   background-color: #23c523;
   padding: 50px;
   color: black;
@@ -1042,7 +1044,7 @@ footer {
   background-color: black;
   color: white;
   border-radius: 30px;
-  justify-content: center;
+  /* justify-content: center; */
 }
 .herbal ul {
   font-size: 20px;

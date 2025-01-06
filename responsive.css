@@ -351,11 +351,11 @@
   }
   /* jucie page*/
   .alovera-image-section {
-    height: 220lvb;
+    height: 155lvh;
     padding: 90px;
   }
   .alovera-image-section h2 {
-    font-size: 50px;
+    font-size: 44px;
     padding: 0;
   }
   .juice-business-section {
@@ -2183,7 +2183,7 @@
 
   /* juice page */
   .alovera-image-section {
-    height: 55vh;
+    height: 35vh;
     padding: 30px 20px;
   }
 
@@ -2455,5 +2455,10 @@
   }
   .location-map {
     height: 50vh;
+  }
+}
+@media (min-width: 1400px) {
+  .alovera-image-section {
+    height: 100lvh;
   }
 }
