@@ -1898,6 +1898,125 @@
     font-size: 25px;
   }
 }
+@media (max-width: 507px) {
+  /* index page */
+  .logo-container {
+    width: 35%;
+  }
+  .hamburger {
+    margin-right: 10px;
+  }
+  .banner-container {
+    height: 0lvh;
+  }
+  .slogan-container h1 {
+    font-size: 20px;
+  }
+  .bottle-branding h2 {
+    font-size: 22px;
+  }
+  .bottle-branding {
+    gap: 50px;
+    padding: 0px;
+  }
+  .fade-container {
+    padding-top: 50px;
+  }
+  /* about us page */
+  .welcome-container h2 {
+    font-size: 31px;
+  }
+  .our-section {
+    padding: 100px 50px;
+  }
+  .our-section-card p {
+    text-align: center;
+  }
+  .work-with-section h2 {
+    font-size: 31px;
+    text-align: start;
+  }
+  .quality-complaince-section h2 {
+    font-size: 31px;
+    text-align: start;
+  }
+  .donot-incorporate h2 {
+    font-size: 31px;
+  }
+  .incorporate h2 {
+    font-size: 31px;
+  }
+  .process-of-making-section h2 {
+    font-size: 31px;
+  }
+  .making-process-card-container img {
+    width: 90%;
+  }
+  .making-process-card-container p {
+    font-size: 20px;
+  }
+  .card-container-main h3 {
+    font-size: 27px;
+  }
+  .animals-section h2 {
+    font-size: 31px;
+  }
+  .animal-testing-quote {
+    font-size: 17px;
+  }
+  /* perfume page */
+  .perfume-video-title h2 {
+    font-size: 18px;
+  }
+  .perfume-grade-alcohol-section h1 {
+    font-size: 31px;
+  }
+  .design-perfume-bottle {
+    padding: 0px;
+  }
+  /* wheatgrass page */
+  .wheat-grass-video-title {
+    /* height: 130px; */
+    top: 60px;
+  }
+  .wheat-grass-video-title h2 {
+    font-size: 16px;
+  }
+  .practicing-for-farming-section h2 {
+    font-size: 27px;
+  }
+  .wheat-grass-packaging-section h2 {
+    font-size: 31px;
+  }
+  .wheat-grass-benefit-section h2 {
+    font-size: 31px;
+  }
+  .wheat-grass-effect-section h2 {
+    font-size: 31px;
+  }
+  .alovera-image-section {
+    height: 68lvh;
+  }
+  .alovera-image-section h2 {
+    font-size: 25px;
+  }
+  .juice-business-section h2 {
+    font-size: 25px;
+  }
+  .alovera-video-title h2 {
+    font-size: 20px;
+  }
+  /* contact-us page */
+  .form-page h2 {
+    font-size: 33px;
+  }
+  /* arrow to up */
+  .back-to-top {
+    padding: 15px;
+    font-size: 15px;
+    right: 10px;
+  }
+}
 @media (max-width: 428px) {
   /* index page */
   .nav-ul {
@@ -2286,7 +2405,7 @@
     height: 50vh;
   }
 }
-@media (max-width: 376px) {
+@media (max-width: 367px) {
   /* index page */
   /* nav-bar */
   .logo-container {
@@ -2294,19 +2413,19 @@
   }
   /* nav-bar-ends */
   .slogan-container h1 {
-    font-size: 18px;
+    font-size: 16px;
   }
   .bottle-branding img {
     width: 80%;
   }
   .bottle-branding h2 {
-    font-size: 19px;
+    font-size: 17px;
   }
   .fade-container h2 {
     font-size: 20px;
   }
   .fade-container {
-    padding-top: 40px;
+    padding-top: 35px;
   }
   /* footer */
   .footer-a {
@@ -2375,7 +2494,7 @@
   }
   /* perfume-page */
   .perfume-video-title h2 {
-    font-size: 15px;
+    font-size: 14px;
   }
   .perfume-grade-alcohol-section {
     padding: 30px;
@@ -2409,7 +2528,7 @@
 
   /* wheat-grass page */
   .wheat-grass-video-title h2 {
-    font-size: 12px;
+    font-size: 11px;
   }
   .characteristics-and-properties-section {
     padding: 30px;
@@ -2423,9 +2542,16 @@
   .wheat-grass-effect-section {
     padding: 30px;
   }
+  .practicing-for-farming-section h2 {
+    font-size: 21px;
+  }
   .wheat-grass-packaging-section {
     padding: 30px;
   }
+  .wheat-grass-packaging-section h2 {
+    font-size: 21px;
+  }
+
   /* juice page */
   .alovera-image-section {
     height: 60lvh;
@@ -2441,7 +2567,7 @@
     padding: 30px;
   }
   .alovera-video-title h2 {
-    font-size: 18px;
+    font-size: 17px;
   }
   .herbal-juice-and-powder-section {
     padding: 30px;
@@ -2455,6 +2581,19 @@
   }
   .location-map {
     height: 50vh;
+  }
+  .form-page h2 {
+    font-size: 27px;
+  }
+  .contact-info {
+    width: 60%;
+  }
+  .submit-btn {
+    width: 50%;
+    font-size: 13px;
+  }
+  .single-map h2 {
+    font-size: 21px;
   }
 }
 /* @media (min-width: 1400px) {
