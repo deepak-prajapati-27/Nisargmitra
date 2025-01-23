@@ -33,13 +33,13 @@ hr {
   margin-right: 60px;
   z-index: 2;
 }
-a {
+.nav-anchor {
   text-decoration: none;
   color: #23c523;
   font-family: Josefin Sans;
   font-size: 24px;
 }
-a:hover {
+.nav-anchor:hover {
   color: white;
   /* text-decoration-line: underline; */
 }
@@ -301,6 +301,7 @@ footer {
 }
 .our-section-card {
   background-color: black;
+  margin: 100px 0px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -636,6 +637,7 @@ footer {
 }
 .guiding-of-perfume-section h3 {
   font-size: 36px;
+  text-align: center;
   background-color: black;
   padding: 50px;
   color: white;
@@ -712,7 +714,43 @@ footer {
   gap: 10px;
   font-weight: 800;
 }
+/* comsetic page */
 
+.cosmetic-container {
+  padding: 100px;
+  background-color: #23c523;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cosmetic-container-details {
+  padding-bottom: 35px;
+}
+.cosmetic-container-details a {
+  font-size: 35px;
+  color: white;
+}
+.cosmetic-container-details h3 :hover {
+  /* font-size: 39px; */
+  color: #23c523;
+}
+.cosmetic-container-details h3 {
+  text-decoration: none;
+}
+/* face product */
+.face-product-black-bg h2 {
+  font-size: 80px;
+  text-align: center;
+}
+.face-product-black-bg {
+  color: #23c523;
+  background-color: #3c3d37;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
 /* wheat-grass */
 /* wheat-grass-video-section */
 
