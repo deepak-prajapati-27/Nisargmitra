@@ -2525,7 +2525,10 @@
   .all-smells {
     gap: 30px;
   }
-
+  /* cosmetics */
+  .cosmetic-container {
+    padding: 30px;
+  }
   /* wheat-grass page */
   .wheat-grass-video-title h2 {
     font-size: 11px;
@@ -2596,8 +2599,3 @@
     font-size: 21px;
   }
 }
-/* @media (min-width: 1400px) {
-  .alovera-image-section {
-    height: 100lvh;
-  }
-} */

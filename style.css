@@ -35,7 +35,7 @@ hr {
 }
 .nav-anchor {
   text-decoration: none;
-  color: #23c523;
+  color: white;
   font-family: Josefin Sans;
   font-size: 24px;
 }
@@ -88,8 +88,8 @@ hr {
 /* slogan-container */
 
 .slogan-container {
-  background-color: black;
-  color: #23c523;
+  background-color: #1e201e;
+  color: white;
   padding: 100px 50px;
   display: flex;
   flex-direction: column;
@@ -147,6 +147,7 @@ hr {
 
 /* footer */
 .footer-a {
+  text-decoration: none;
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -192,6 +193,7 @@ footer {
   color: white;
   opacity: 0.9;
   font-size: 20px;
+  text-decoration: none;
 }
 .footer-main p {
   color: white;
@@ -212,7 +214,7 @@ footer {
 /* intro-container */
 
 .intro-container {
-  background-color: #23c523;
+  background-color: #1e201e;
   padding: 100px;
   gap: 40px;
   display: flex;
@@ -231,7 +233,7 @@ footer {
 }
 .black-bg {
   border-radius: 10px;
-  background-color: black;
+  background-color: #7cc34f;
   color: white;
   display: flex;
   justify-content: center;
@@ -242,12 +244,15 @@ footer {
 }
 .abc {
   border-radius: 10px;
-  background-color: black;
+  background-color: #7cc34f;
   color: white;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.intro-para h1 {
+  color: black;
 }
 
 /* welcome-container */
@@ -257,7 +262,7 @@ footer {
   gap: 80px;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #1e201e;
   color: white;
   padding: 100px;
   text-align: center;
@@ -296,11 +301,11 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 100px;
-  background-color: #23c523;
+  padding: 0 100px 100px;
+  background-color: #1e201e;
 }
 .our-section-card {
-  background-color: black;
+  background-color: #7cc34f;
   margin: 100px 0px;
   color: white;
   display: flex;
@@ -323,18 +328,19 @@ footer {
   font-weight: 800;
   font-size: 40px;
   text-align: center;
+  color: black;
 }
 .our-section-card p {
   font-weight: 800;
-
+  color: black;
   font-size: 23px;
   padding: 20px;
 }
 /* work-with-section */
 
 .work-with-section {
-  padding: 100px;
-  background-color: black;
+  padding: 0 100px 100px;
+  background-color: #1e201e;
   color: white;
 }
 .work-with-section h2 {
@@ -355,8 +361,8 @@ footer {
 
 .quality-complaince-section {
   padding: 100px;
-  background-color: #23c523;
-  color: black;
+  background-color: #1e201e;
+  color: white;
   display: flex;
   flex-direction: column;
 }
@@ -383,20 +389,16 @@ footer {
 
 .corporate-section {
   padding: 100px;
-  background-color: black;
+  background-color: ;
   display: flex;
   gap: 50px;
 }
 .incorporate {
   color: black;
-  border: 5px solid white;
   width: 50%;
-  background-color: white;
+  background-color: #7cc34f;
   padding: 50px;
   border-radius: 50px;
-  -webkit-box-shadow: inset -5px 9px 70px 8px rgba(0, 0, 0, 1);
-  -moz-box-shadow: inset -5px 9px 70px 8px rgba(0, 0, 0, 1);
-  box-shadow: inset -5px 9px 70px 8px rgba(0, 0, 0, 1);
 }
 .incorporate h2 {
   font-size: 54px;
@@ -411,14 +413,10 @@ footer {
 }
 .donot-incorporate {
   color: black;
-  border: 5px solid white;
   width: 50%;
-  background-color: white;
+  background-color: #7cc34f;
   padding: 50px;
   border-radius: 50px;
-  -webkit-box-shadow: inset -5px 9px 70px 8px rgba(0, 0, 0, 1);
-  -moz-box-shadow: inset -5px 9px 70px 8px rgba(0, 0, 0, 1);
-  box-shadow: inset -5px 9px 70px 8px rgba(0, 0, 0, 1);
 }
 .donot-incorporate h2 {
   font-size: 54px;
@@ -436,16 +434,17 @@ footer {
 
 .process-of-making-section {
   padding: 100px;
-  background-color: #23c523;
+  background-color: #1e201e;
   color: white;
 }
 .process-of-making-section h2 {
   padding: 50px;
   font-size: 60px;
   text-align: center;
+  color: black;
 }
 .card-container-main {
-  background-color: black;
+  background-color: #7cc34f;
   padding: 50px;
   border-radius: 30px;
   /* display: flex; */
@@ -463,7 +462,7 @@ footer {
   width: 100%;
   margin: 0 auto;
   border-radius: 20px;
-  border: 3px solid white;
+  border: 3px solid black;
   padding: 5px;
 }
 .making-process-card-container img:hover {
@@ -473,6 +472,7 @@ footer {
 .making-process-card-container p {
   font-size: 20px;
   font-weight: 800;
+  color: black;
 }
 .card-container-all {
   display: flex;
@@ -483,8 +483,8 @@ footer {
   /* flex-wrap: wrap; */
 }
 .numbering-p {
-  background-color: black;
-  border: 4px solid #23c523;
+  background-color: white;
+  border: 3px solid black;
   padding: 10px;
   width: 50px;
   color: white;
@@ -500,6 +500,7 @@ footer {
   font-size: 45px;
   text-align: center;
   font-weight: 800;
+  color: black;
 }
 
 /* animal section */
@@ -597,11 +598,10 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #967aa1;
+  background-color: #7cc34f;
   padding: 100px;
   color: black;
   border-radius: 30px;
-  border: 10px solid #795757;
 }
 .percentage-level ul {
   font-size: 29px;
@@ -620,16 +620,12 @@ footer {
   border: 5px solid black;
   width: 100%;
   border-radius: 10px;
-  opacity: 0.6;
-}
-.perfume-bottle-img:hover {
-  opacity: 0.9;
-  transition: 0.6s ease;
+  /* opacity: 0.7; */
 }
 
 /* guiding-of-perfume-section */
 .guiding-of-perfume-section {
-  background-color: #23c523;
+  background-color: #1e201e;
   padding: 100px;
   display: flex;
   flex-direction: column;
@@ -638,9 +634,9 @@ footer {
 .guiding-of-perfume-section h3 {
   font-size: 36px;
   text-align: center;
-  background-color: black;
+  background-color: #7cc34f;
   padding: 50px;
-  color: white;
+  color: black;
   border-radius: 100px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
@@ -659,8 +655,8 @@ footer {
   gap: 50px;
   border-radius: 50px;
   padding: 50px;
-  background-color: black;
-  color: white;
+  background-color: #7cc34f;
+  color: black;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -678,7 +674,7 @@ footer {
 
 /* types-of-smell-section */
 .types-of-smell-section {
-  background-color: black;
+  background-color: #1e201e;
   padding: 100px;
   color: white;
 }
@@ -696,7 +692,7 @@ footer {
 .different-smells {
   /* text-align: center; */
   width: 23%;
-  background-color: white;
+  background-color: #7cc34f;
   color: black;
   border-radius: 30px;
   /* border: 5px solid red; */
@@ -718,7 +714,7 @@ footer {
 
 .cosmetic-container {
   padding: 100px;
-  background-color: #23c523;
+  background-color: #1e201e;
   display: flex;
   gap: 20px;
   justify-content: center;
@@ -729,11 +725,15 @@ footer {
 }
 .cosmetic-container-details a {
   font-size: 35px;
-  color: white;
+  color: black;
+  text-decoration: none;
 }
 .cosmetic-container-details h3 :hover {
   /* font-size: 39px; */
-  color: #23c523;
+  color: #1e201e;
+  font-size: 36px;
+  /* transform: scale(1.1); */
+  transition: all 0.6s;
 }
 .cosmetic-container-details h3 {
   text-decoration: none;
@@ -744,7 +744,7 @@ footer {
   text-align: center;
 }
 .face-product-black-bg {
-  color: #23c523;
+  color: white;
   background-color: #3c3d37;
   padding: 100px;
   display: flex;
@@ -784,7 +784,7 @@ footer {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .characteristics-and-properties-section {
-  background-color: black;
+  background-color: #1e201e;
   color: white;
   padding: 100px;
   display: flex;
@@ -799,7 +799,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  background-color: whitesmoke;
+  background-color: #7cc34f;
   color: black;
   padding: 100px;
   border-radius: 50px;
@@ -807,8 +807,8 @@ footer {
 .wheat-grass-contain-main h4 {
   font-size: 40px;
   text-align: center;
-  background-color: grey;
-  color: black;
+  background-color: #1e201e;
+  color: white;
   padding: 50px;
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
@@ -826,7 +826,7 @@ footer {
 .wheat-grass-contain ul {
   font-size: 20px;
   font-weight: 800;
-  border: 5px solid black;
+  /* border: 5px solid black; */
   border-radius: 15px;
   padding: 10px 30px;
   display: flex;
@@ -847,7 +847,7 @@ footer {
 
 /* practicing-for-farming-section */
 .practicing-for-farming-section {
-  background-color: #23c523;
+  background-color: #1e201e;
   padding: 100px;
   display: flex;
   flex-direction: column;
@@ -855,9 +855,11 @@ footer {
 }
 .practicing-for-farming-section h2 {
   font-size: 60px;
+  color: white;
 }
 .practicing-for-farming-section ul {
   display: flex;
+  color: white;
   flex-direction: column;
   gap: 30px;
   font-weight: 800;
@@ -904,7 +906,7 @@ footer {
 }
 /* wheat-grass-benefit-section */
 .wheat-grass-benefit-section {
-  background-color: #23c523;
+  background-color: #1e201e;
   padding: 100px;
   display: flex;
   flex-direction: column;
@@ -912,6 +914,7 @@ footer {
 }
 .wheat-grass-benefit-section h2 {
   font-size: 60px;
+  color: white;
 }
 .wheat-grass-benefit-section ul {
   display: flex;
@@ -920,10 +923,11 @@ footer {
   font-size: 24px;
   font-weight: 800;
   list-style-type: square;
+  color: white;
 }
 /* wheat-grass-effect-section */
 .wheat-grass-effect-section {
-  background-color: black;
+  background-color: #1e201e;
   width: 100%;
   padding: 100px;
 }
@@ -942,7 +946,7 @@ footer {
 }
 
 .wheat-grass-effect {
-  background-color: white;
+  background-color: #7cc34f;
   color: black;
   padding: 50px;
   display: flex;
@@ -951,7 +955,7 @@ footer {
   border-radius: 50px;
 }
 .wheat-grass-effect:hover {
-  background-color: black;
+  background-color: #1e201e;
   color: white;
   border-radius: 50px;
   transition: 0.9s ease;
@@ -989,7 +993,7 @@ footer {
   font-size: 30px;
 }
 .juice-business-section {
-  background-color: black;
+  background-color: #1e201e;
   color: white;
   padding: 100px;
   display: flex;
@@ -998,7 +1002,7 @@ footer {
 }
 .juice-business-section h2 {
   font-size: 57px;
-  background-color: #23c523;
+  background-color: #7cc34f;
   padding: 50px;
   color: black;
   border-radius: 30px;
@@ -1048,7 +1052,7 @@ footer {
 /* herbal-juice-and-powder-section */
 .herbal-juice-and-powder-section {
   padding: 100px;
-  background-color: #23c523;
+  background-color: #1e201e;
   display: flex;
   flex-direction: column;
   gap: 100px;
@@ -1059,6 +1063,7 @@ footer {
 .herbal-juice-and-powder-section h2 {
   font-size: 60px;
   text-align: center;
+  color: white;
 }
 .herbal-juice-and-powder-section h3 {
   font-size: 45px;
@@ -1079,8 +1084,8 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  background-color: black;
-  color: white;
+  background-color: #7cc34f;
+  color: black;
   border-radius: 30px;
   /* justify-content: center; */
 }
@@ -1103,7 +1108,7 @@ footer {
 /* our-range-section */
 
 .our-range-section-green-bg {
-  background-color: #23c523;
+  background-color: #1e201e;
   padding: 100px;
   display: flex;
   flex-direction: column;
@@ -1112,6 +1117,7 @@ footer {
 .our-range-section-green-bg h2 {
   font-size: 80px;
   text-align: center;
+  color: white;
 }
 .our-range-card-container {
   display: flex;
@@ -1124,9 +1130,9 @@ footer {
   border: 5px solid white;
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: #7cc34f;
   border-radius: 20px;
-  color: white;
+  color: black;
   gap: 30px;
   position: relative;
   overflow: hidden;
@@ -1135,10 +1141,10 @@ footer {
 }
 .our-range-card-black-bg {
   width: 32%;
-  border: 5px solid white;
+  border: 5px solid black;
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: #7cc34f;
   border-radius: 20px;
   color: white;
   gap: 30px;
@@ -1151,10 +1157,12 @@ footer {
   font-size: 30px;
   text-align: center;
   text-decoration: underline;
+  color: black;
 }
 .our-range-card-ul {
   padding: 0 15px;
   font-size: 18px;
+  color: black;
 }
 .our-range-card-img {
   border-radius: 15px 15px 0px 0px;
@@ -1166,7 +1174,7 @@ footer {
 }
 
 .our-range-section-black-bg {
-  background-color: #3c3d37;
+  background-color: #1e201e;
   padding: 100px;
 }
 .our-range-ul {
@@ -1183,7 +1191,7 @@ footer {
 /* contact-us */
 .contact-us-section {
   padding: 100px;
-  background-color: black;
+  background-color: #1e201e;
   display: flex;
   flex-direction: column;
   gap: 100px;
@@ -1206,7 +1214,7 @@ footer {
 .logo {
   width: 60px;
   height: 60px;
-  background-color: #bc9864;
+  background-color: white;
   border-radius: 50%;
   padding: 20px 0px 0px 0px;
   text-align: center;
@@ -1214,7 +1222,7 @@ footer {
   color: black;
 }
 .contact-info h3 {
-  color: #bc9864;
+  color: white;
   font-size: 30px;
 }
 .contact-info p {
@@ -1244,7 +1252,7 @@ footer {
   width: 60%;
   /* height: 50px; */
   border-radius: 10px;
-  background-color: #bc9864;
+  background-color: white;
   border-color: #bc9864;
   font-size: 20px;
   padding: 0 30px;
