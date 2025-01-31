@@ -463,7 +463,6 @@ footer {
   width: 100%;
   margin: 0 auto;
   border-radius: 20px;
-  border: 3px solid black;
   padding: 5px;
 }
 .making-process-card-container img:hover {
@@ -574,7 +573,7 @@ footer {
 /* perfume-grade-alcohol-section */
 .perfume-grade-alcohol-section {
   padding: 100px;
-  background-color: black;
+  background-color: #1e201e;
   color: white;
   display: flex;
   flex-direction: column;

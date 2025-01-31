@@ -30,6 +30,7 @@
   .our-section-card {
     padding: 45px;
     width: 46%;
+    margin: 0px;
   }
   .intro-para {
     font-size: 20px;
@@ -51,6 +52,9 @@
   }
   .work-with-section h2 {
     font-size: 58px;
+  }
+  .quality-complaince-section {
+    padding: 0px 100px 100px;
   }
   .card-container-main h3 {
     font-size: 38px;
@@ -214,7 +218,7 @@
     width: 40%;
   }
   .our-section {
-    padding: 90px;
+    padding: 0px 90px 90px;
     justify-content: space-between;
   }
   .our-section-card p {
@@ -223,6 +227,10 @@
   .our-section-card {
     width: 47%;
     padding: 65px;
+    max-height: 360px;
+  }
+  .work-with-section h2 {
+    font-size: 60px;
   }
   .work-with-section {
     padding: 90px;
@@ -1207,7 +1215,7 @@
   /* juice page */
   .alovera-image-section h2 {
     font-size: 33px;
-    padding: 70px 35px;
+    padding: 70px 0px;
   }
   .alovera-image-section {
     padding: 0px 30px 0px;
@@ -1531,13 +1539,13 @@
     padding: 0px;
     font-size: 35px;
     color: black;
+    padding-top: 50px;
   }
   .card-container-main {
     padding: 0px;
     display: flex;
     flex-direction: column;
     gap: 50px;
-    background-color: #23c523;
   }
   .card-container-all {
     gap: 50px;
@@ -1545,15 +1553,16 @@
   }
   .making-process-card-container {
     width: 100%;
+    padding: 0 30px;
   }
   .making-process-card-container img {
     padding: 10px;
   }
   .numbering-p {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 40px;
     height: 40px;
-    color: white !important;
+    /* color: white !important; */
   }
   .making-process-card-container p {
     font-size: 22px;
@@ -1859,7 +1868,6 @@
   }
   .our-range-card-green-bg {
     width: 70%;
-    border: 3px solid white;
     border-radius: 20px;
     gap: 20px;
   }
@@ -2103,7 +2111,12 @@
   .fade-container h2 {
     font-size: 22px;
   }
-
+  .back-to-top {
+    bottom: 10px;
+    right: 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
   /* about us page   */
   .intro-para {
     padding: 20px;
@@ -2193,8 +2206,16 @@
   .process-of-making-section h2 {
     font-size: 26px;
   }
+  .making-process-card-container {
+    width: 100%;
+    padding: 0 20px;
+  }
   .making-process-card-container p {
-    font-size: 21px;
+    font-size: 19px;
+  }
+  .making-process-card-container img {
+    width: 100%;
+    padding: 0px;
   }
   .card-container-main h3 {
     font-size: 23px;
@@ -2349,7 +2370,7 @@
 
   /* juice page */
   .alovera-image-section {
-    height: 35vh;
+    height: 85vh;
     padding: 30px 20px;
   }
 
@@ -2527,9 +2548,13 @@
   .process-of-making-section h2 {
     font-size: 26px;
   }
+  .making-process-card-container {
+    padding: 0px 15px;
+  }
   .making-process-card-container p {
     font-size: 20px;
   }
+
   .card-container-main h3 {
     font-size: 21px;
   }
@@ -2655,5 +2680,32 @@
   }
   .single-map h2 {
     font-size: 21px;
+  }
+}
+@media (max-width: 325px) {
+  /* home page */
+  .slogan-container h1 {
+    font-size: 15px;
+  }
+  .bottle-branding h2 {
+    font-size: 15px;
+  }
+  /* footer */
+  .back-to-top {
+    bottom: 10px;
+    right: 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  /* about-us page */
+  .process-of-making-section h2 {
+    font-size: 22px;
+  }
+  .making-process-card-container p {
+    font-size: 17px;
+  }
+  .numbering-p {
+    width: 30px;
+    height: 30px;
   }
 }
