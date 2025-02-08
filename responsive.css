@@ -2130,7 +2130,7 @@
   .slogan-container {
     padding: 30px;
   }
-  .slogan-container h1 {
+  .banner-container h1 {
     font-size: 18px;
   }
   .banner-container {
@@ -2530,7 +2530,7 @@
     width: 40%;
   }
   /* nav-bar-ends */
-  .slogan-container h1 {
+  .banner-container h1 {
     font-size: 16px;
   }
   .bottle-branding img {
@@ -2734,7 +2734,7 @@
 }
 @media (max-width: 325px) {
   /* home page */
-  .slogan-container h1 {
+  .banner-container h1 {
     font-size: 15px;
   }
   .bottle-branding h2 {
