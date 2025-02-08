@@ -69,7 +69,7 @@ hr {
       rgb(0 0 0 / 36%) 85%,
       rgb(0 0 0) 100%
     ),
-    url(images/banner-img-main.jpg);
+    url(https://img.freepik.com/free-photo/foundation-bottles-advertising-arrangement_23-2149511225.jpg?t=st=1739009435~exp=1739013035~hmac=bfdb9bfa1aee61f74ffadf1c1a7773a7dfe6ddb208d13628e01e160750a4cb30&w=996);
   height: 66vw;
   width: 100%;
   color: aliceblue;
@@ -79,11 +79,14 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 290px;
-  padding-left: 150px;
+  text-align: center;
+  padding-top: 100px;
 }
 .banner-container h1 {
-  font-size: 50px;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 100px;
+  color: black;
 }
 /* slogan-container */
 
@@ -96,9 +99,7 @@ hr {
   align-items: center;
   gap: 40px;
 }
-.slogan-container h1 {
-  font-size: 70px;
-}
+
 .bottle-branding {
   padding: 70px 0px;
   display: flex;
