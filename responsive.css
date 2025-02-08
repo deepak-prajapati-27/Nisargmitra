@@ -279,6 +279,21 @@
   .animals-section {
     height: 100%;
     padding: 90px;
+  } /* brand-container */
+  .brands-container {
+    padding: 90px;
+  }
+  .brands-container h2 {
+    font-size: 50px;
+  }
+  .brands-logo-img-div {
+    width: 12%;
+  }
+  .certified-container {
+    padding: 90px;
+  }
+  .certified-container h2 {
+    font-size: 50px;
   }
   /* perfume page */
   .perfume-video-title h2 {
@@ -600,6 +615,22 @@
   .animal-testing-quote {
     padding: 30px 0px 0px;
     font-size: 31px;
+  }
+  /* brands-container */
+  .brands-logo-img-div {
+    width: 15%;
+  }
+  .brands-container {
+    padding: 80px;
+  }
+  .brands-container h2 {
+    font-size: 40px;
+  }
+  .certified-container {
+    padding: 80px;
+  }
+  .certified-container h2 {
+    font-size: 40px;
   }
   /* perfume page */
   .perfume-video-title h2 {
@@ -1058,7 +1089,25 @@
     font-size: 25px;
     padding: 20px 20px 0px 20px;
   }
-
+  /* brand-container */
+  .brands-logo-wrapper {
+    gap: 30px;
+  }
+  .brands-logo-img-div {
+    width: 20%;
+  }
+  .certified-logo-wrapper {
+    gap: 20px;
+  }
+  .certified-logo-img-div {
+    width: 30%;
+  }
+  .certified-container {
+    padding: 70px;
+  }
+  .brands-container {
+    padding: 70px;
+  }
   /* perfume page */
   .perfume-video-title h2 {
     font-size: 26px;

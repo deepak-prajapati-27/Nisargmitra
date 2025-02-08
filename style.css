@@ -502,7 +502,62 @@ footer {
   font-weight: 800;
   color: black;
 }
+/* brands container */
+.brands-container {
+  padding: 100px;
+  background-color: #1e201e;
+}
+.brands-container h2 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.brands-logo-wrapper {
+  background-color: green;
+  padding: 50px;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.brands-logo-img-div {
+  width: 10%;
+}
 
+.brands-logo-img-div img {
+  width: 100%;
+}
+
+/* certified-container */
+.certified-container {
+  padding: 100px;
+  background-color: #1e201e;
+}
+.certified-container h2 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.certified-logo-wrapper {
+  background-color: #7cc34f;
+  padding: 50px;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 100px;
+  justify-content: center;
+}
+.certified-logo-img-div {
+  width: 14%;
+}
+.certified-logo-img-div img {
+  width: 100%;
+}
 /* animal section */
 .animals-section {
   background-image: linear-gradient(
