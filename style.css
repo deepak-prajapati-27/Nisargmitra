@@ -33,6 +33,9 @@ hr {
   margin-right: 60px;
   z-index: 2;
 }
+.nav-ul :hover {
+  cursor: pointer;
+}
 .nav-anchor {
   text-decoration: none;
   color: white;
@@ -69,7 +72,7 @@ hr {
       rgb(0 0 0 / 36%) 85%,
       rgb(0 0 0) 100%
     ),
-    url(https://img.freepik.com/free-photo/foundation-bottles-advertising-arrangement_23-2149511225.jpg?t=st=1739009435~exp=1739013035~hmac=bfdb9bfa1aee61f74ffadf1c1a7773a7dfe6ddb208d13628e01e160750a4cb30&w=996);
+    url(https://img.freepik.com/free-photo/foundation-advertising-with-different-containers_23-2149511276.jpg?t=st=1739099549~exp=1739103149~hmac=51bca5cc6fcf97bf27e72fdf9c903ccde7f236ed815ea1a01b83ee9ba86ce903&w=996);
   height: 66vw;
   width: 100%;
   color: aliceblue;
@@ -101,23 +104,28 @@ hr {
 }
 
 .bottle-branding {
-  padding: 70px 0px;
+  padding: 50px 0px 50px 50px;
   display: flex;
   gap: 100px;
   align-items: center;
+  justify-content: center;
 }
-.bottle-branding img {
-  border-radius: 10px;
-  box-shadow: rgb(255, 255, 255) 0px 5px 15px 5px;
-}
+
 .bottle-branding h2 {
   font-size: 40px;
 }
+
 .bottle-img {
   transition: 0.3s ease;
+  border-radius: 10px;
+  box-shadow: rgb(255, 255, 255) 0px 5px 15px 5px;
+  width: 100%;
 }
 .bottle-img:hover {
   transform: scale(1.1);
+}
+.bottle-branding-img-container {
+  width: 40%;
 }
 
 /* fade-container */
@@ -283,7 +291,7 @@ footer {
   text-align: start;
   gap: 50px;
   border-radius: 10px;
-  background-color: white;
+  background-color: #7cc34f;
   margin-bottom: 50px;
 }
 .welcome-section-contain p {
@@ -515,7 +523,7 @@ footer {
   padding-bottom: 50px;
 }
 .brands-logo-wrapper {
-  background-color: green;
+  background-color: #7cc34f;
   padding: 50px;
   border-radius: 30px;
   display: flex;
@@ -525,7 +533,7 @@ footer {
   justify-content: center;
 }
 .brands-logo-img-div {
-  width: 10%;
+  width: 13%;
 }
 
 .brands-logo-img-div img {

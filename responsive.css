@@ -20,8 +20,9 @@
   .bottle-branding h2 {
     font-size: 32px;
   }
-  .slogan-container h1 {
+  .banner-container h1 {
     font-size: 65px;
+    padding-top: 0px;
   }
   .fade-container h2 {
     font-size: 70px;
@@ -153,6 +154,61 @@
     width: 40vw;
   }
 }
+@media (max-width: 1300px) {
+  /* home-page */
+  .nav-ul {
+    gap: 19px;
+  }
+  .bottle-branding h2 {
+    font-size: 35px;
+  }
+  /* about-us */
+  .brands-container h2 {
+    font-size: 54px;
+  }
+  .welcome-section-contain {
+    padding: 50px;
+  }
+  .brands-logo-img-div {
+    width: 20%;
+  }
+  .brands-logo-wrapper {
+    gap: 0px 60px;
+  }
+  .certified-container h2 {
+    font-size: 54px;
+  }
+  .certified-logo-wrapper {
+    gap: 50px 100px;
+  }
+  .certified-logo-img-div {
+    width: 20%;
+  }
+  .our-section-card {
+    max-height: 355px;
+  }
+  .work-with-section h2 {
+    font-size: 55px;
+  }
+  .quality-complaince-section h2 {
+    font-size: 55px;
+  }
+  .card-container-main h3 {
+    font-size: 36px;
+  }
+  .animal-testing-quote {
+    font-size: 26px;
+  }
+  /* wheatgrass-section */
+  .characteristics-and-properties-section h2 {
+    font-size: 57px;
+  }
+  /* juice-section */
+  /* juice-business-section */
+  .juice-business-section h2 {
+    font-size: 47px;
+  }
+}
 @media (max-width: 1200px) {
   /* index page */
   /* nav-bar */
@@ -165,7 +221,7 @@
     margin-right: 35px;
   }
   .nav-anchor {
-    font-size: 22px;
+    font-size: 21px;
   }
   /* nav-bar end */
   .slogan-container {
@@ -182,9 +238,7 @@
     padding: 70px 0px 0px;
     gap: 50px;
   }
-  .bottle-branding img {
-    width: 50%;
-  }
+
   .bottle-branding h2 {
     font-size: 33px;
   }
@@ -230,7 +284,7 @@
     max-height: 360px;
   }
   .work-with-section h2 {
-    font-size: 60px;
+    font-size: 55px;
   }
   .work-with-section {
     padding: 90px;
@@ -247,7 +301,18 @@
   .corporate-section {
     padding: 90px;
   }
-
+  .process-of-making-section h2 {
+    padding: 50px 0;
+  }
+  .making-process-card-container p {
+    font-size: 19px;
+  }
+  .card-container-main h3 {
+    padding: 100px 0px 0px 0px;
+  }
+  .animal-testing-quote {
+    font-size: 24px;
+  }
   .incorporate ul {
     padding: 30px 0px 0px 0px;
   }
@@ -284,10 +349,10 @@
     padding: 90px;
   }
   .brands-container h2 {
-    font-size: 50px;
+    font-size: 49px;
   }
   .brands-logo-img-div {
-    width: 12%;
+    width: 19%;
   }
   .certified-container {
     padding: 90px;
@@ -301,6 +366,9 @@
     text-align: center;
     color: black;
     opacity: 0.7;
+  }
+  .guiding-of-perfume-section h3 {
+    font-size: 27px;
   }
   .perfume-grade-alcohol-section h1 {
     font-size: 70px;
@@ -326,7 +394,7 @@
     border-radius: 50px;
   }
   .guiding-perfume-card h2 {
-    font-size: 29px;
+    font-size: 25px;
   }
   .guiding-perfume-card ul {
     font-size: 22px;
@@ -338,6 +406,16 @@
   .different-smells {
     width: 47%;
   }
+  /* cosmetic section */
+  .our-range-card-green-bg {
+    width: 45%;
+  }
+  .our-range-card-container {
+    justify-content: center;
+  }
+  .our-range-card-black-bg {
+    width: 45%;
+  }
   /* wheat-grass page */
   .wheat-grass-video-title h2 {
     font-size: 40px;
@@ -346,7 +424,7 @@
     height: 52%;
   }
   .characteristics-and-properties-section h2 {
-    font-size: 55px;
+    font-size: 52px;
   }
   .characteristics-and-properties-section {
     padding: 90px;
@@ -386,7 +464,7 @@
     padding: 90px;
   }
   .juice-business-section h2 {
-    font-size: 47px;
+    font-size: 45px;
     padding: 30px;
   }
   .juice-business-section ul {
@@ -406,7 +484,10 @@
     padding: 90px;
   }
   .herbal-juice-and-powder-section h2 {
-    font-size: 50px;
+    font-size: 48px;
+  }
+  .herbal ul {
+    width: 50%;
   }
   .herbal {
     justify-content: normal;
@@ -2124,9 +2205,7 @@
   .logo-container {
     width: 45%;
   }
-  .banner-container {
-    height: 100%;
-  }
+
   .slogan-container {
     padding: 30px;
   }
@@ -2134,7 +2213,7 @@
     font-size: 18px;
   }
   .banner-container {
-    height: 50lvh;
+    height: 65lvh;
   }
   .bottle-branding {
     padding: 0px;
