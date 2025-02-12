@@ -975,7 +975,7 @@
     gap: 70px;
   }
   .bottle-branding img {
-    width: 80%;
+    width: 100%;
   }
   .bottle-branding h2 {
     font-size: 32px;
@@ -2218,6 +2218,9 @@
   .bottle-branding {
     padding: 0px;
     gap: 50px;
+  }
+  .bottle-branding-img-container {
+    width: 70%;
   }
   .bottle-branding h2 {
     font-size: 20px;
