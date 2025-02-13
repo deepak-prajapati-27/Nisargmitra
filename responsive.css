@@ -2613,10 +2613,10 @@
   }
   /* nav-bar-ends */
   .banner-container h1 {
-    font-size: 16px;
+    font-size: 22px;
   }
   .bottle-branding img {
-    width: 80%;
+    width: 100%;
   }
   .bottle-branding h2 {
     font-size: 17px;
@@ -2646,7 +2646,29 @@
   .welcome-container {
     padding: 30px;
   }
-
+  .brands-container {
+    padding: 30px;
+  }
+  .brands-container h2 {
+    font-size: 25px;
+  }
+  .brands-logo-wrapper {
+    gap: 5px;
+    padding: 0px;
+  }
+  .brands-logo-img-div {
+    width: 30%;
+  }
+  .certified-container {
+    padding: 30px;
+  }
+  .certified-container h2 {
+    font-size: 25px;
+  }
+  .certified-logo-wrapper {
+    gap: 40px;
+    padding: 20px 0px;
+  }
   .our-section {
     padding: 30px;
   }
@@ -2685,6 +2707,7 @@
   }
   .making-process-card-container p {
     font-size: 20px;
+    text-align: center;
   }
 
   .card-container-main h3 {
@@ -2740,6 +2763,10 @@
   .cosmetic-container {
     padding: 30px;
   }
+  .our-range-ul {
+    gap: 0px;
+    flex-direction: column;
+  }
   /* face products */
   .face-product-black-bg {
     padding: 30px;
@@ -2777,6 +2804,9 @@
   .alovera-image-section h2 {
     font-size: 19px;
     padding: 8px 0px;
+  }
+  .herbal ul {
+    width: 100%;
   }
   .alovera-image-section {
     padding: 20px 20px;
