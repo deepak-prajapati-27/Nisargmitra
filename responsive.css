@@ -489,6 +489,9 @@
   .alovera-video-title h2 {
     font-size: 46px;
   }
+  .herbal-juice-and-powder-section h3 {
+    font-size: 39px;
+  }
   .herbal-juice-and-powder-section {
     padding: 90px;
   }
@@ -496,7 +499,7 @@
     font-size: 48px;
   }
   .herbal ul {
-    width: 50%;
+    width: 100%;
   }
   .herbal {
     justify-content: normal;
@@ -2219,7 +2222,7 @@
     padding: 30px;
   }
   .banner-container h1 {
-    font-size: 18px;
+    font-size: 25px;
   }
   .banner-container {
     height: 65lvh;
