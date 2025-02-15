@@ -2304,6 +2304,33 @@
     font-size: 16px;
     text-align: center;
   }
+  .brands-container {
+    padding: 40px;
+  }
+  .brands-container h2 {
+    font-size: 25px;
+  }
+  .brands-logo-wrapper {
+    padding: 0px;
+  }
+  .brands-logo-img-div {
+    width: 40%;
+  }
+  .brands-logo-wrapper {
+    gap: 0px 20px;
+  }
+  .certified-container {
+    padding: 40px;
+  }
+  .certified-container h2 {
+    font-size: 25px;
+  }
+  .certified-logo-wrapper {
+    padding: 20px 0px;
+  }
+  .certified-logo-img-div {
+    width: 40%;
+  }
   .work-with-section h2 {
     font-size: 27px;
     text-align: start;
