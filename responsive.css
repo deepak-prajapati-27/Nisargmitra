@@ -225,15 +225,15 @@
   .slogan-container {
     padding: 90px 50px;
   }
-  .banner-container {
+  /* .banner-container {
     height: 100%;
     padding: 100px 0px 600px 0px;
-  }
+  } */
   .slogan-container h1 {
     font-size: 55px;
   }
   .bottle-branding {
-    padding: 70px 0px 0px;
+    padding: 70px 0px;
     gap: 50px;
   }
   .bottle-branding h2 {
