@@ -948,7 +948,9 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
   }
-
+  .banner-container {
+    height: 140vh;
+  }
   .nav-ul.show {
     display: flex;
     padding: 20px;
