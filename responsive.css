@@ -980,10 +980,11 @@
     height: 4px;
   }
   .nav-anchor {
-    font-size: 16px;
+    font-size: 20px;
   }
   .banner-container {
-    height: 85lvh;
+    height: 100%;
+    padding: 100px 0px;
   }
   .bottle-branding {
     align-items: center;
