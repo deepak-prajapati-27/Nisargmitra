@@ -225,7 +225,6 @@
   .slogan-container {
     padding: 90px 50px;
   }
-
   .banner-container {
     height: 100%;
     padding: 100px 0px 600px 0px;
@@ -233,21 +232,17 @@
   .slogan-container h1 {
     font-size: 55px;
   }
-
   .bottle-branding {
     padding: 70px 0px 0px;
     gap: 50px;
   }
-
   .bottle-branding h2 {
     font-size: 33px;
   }
   .fade-container h2 {
     font-size: 60px;
   }
-  .banner-container {
-    height: 200lvh;
-  }
+
   /* about us page */
   .intro-container {
     padding: 90px;
