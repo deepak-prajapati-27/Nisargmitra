@@ -11,9 +11,6 @@
   }
   /* nav-bar end */
 
-  .banner-container {
-    height: 63vw;
-  }
   .bottle-branding {
     gap: 50px;
   }
@@ -225,10 +222,7 @@
   .slogan-container {
     padding: 90px 50px;
   }
-  /* .banner-container {
-    height: 100%;
-    padding: 100px 0px 600px 0px;
-  } */
+
   .slogan-container h1 {
     font-size: 55px;
   }
@@ -1166,9 +1160,7 @@
   .slogan-container h1 {
     font-size: 33px;
   }
-  .banner-container {
-    height: 92lvh;
-  }
+
   .bottle-branding-img-container {
     width: 60%;
   }
@@ -1698,9 +1690,7 @@
   .slogan-container h1 {
     font-size: 25px;
   }
-  .banner-container {
-    height: 100lvh;
-  }
+
   .bottle-branding {
     padding: 35px 0px;
   }
@@ -2285,9 +2275,7 @@
   .hamburger {
     margin-right: 10px;
   }
-  .banner-container {
-    height: 0lvh;
-  }
+
   .slogan-container h1 {
     font-size: 20px;
   }
@@ -2414,9 +2402,7 @@
   .banner-container h1 {
     font-size: 25px;
   }
-  .banner-container {
-    height: 65lvh;
-  }
+
   .bottle-branding {
     padding: 0px;
     gap: 50px;
