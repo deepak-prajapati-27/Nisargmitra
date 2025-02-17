@@ -964,16 +964,17 @@
     display: flex;
     padding: 20px;
     background-color: #3c3d37;
+    top: 100px;
+    right: 35px;
   }
   .logo-container {
     width: 30%;
   }
-
   .hamburger {
     display: flex;
-    margin-right: 35px;
-    width: 30px;
-    height: 20px;
+    margin-right: 50px;
+    width: 40px;
+    height: 25px;
   }
   .hamburger .line {
     height: 4px;
@@ -1089,6 +1090,9 @@
   /* juie-page */
   .juice-business-section {
     padding: 70px;
+  }
+  .juice-business-section h2 {
+    font-size: 32px;
   }
   .alovera-video-title h2 {
     font-size: 34px;
