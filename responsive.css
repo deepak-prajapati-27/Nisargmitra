@@ -545,13 +545,7 @@
   .slogan-container h1 {
     font-size: 45px;
   }
-  /* .banner-container {
-    height: 180lvh;
-  } */
-  .banner-container {
-    height: 100%;
-    padding: 100px 0px 450px 0px;
-  }
+
   .bottle-branding img {
     width: 100%;
   }
