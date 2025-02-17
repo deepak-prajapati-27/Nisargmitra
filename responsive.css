@@ -1097,6 +1097,9 @@
   .alovera-video-title h2 {
     font-size: 34px;
   }
+  .alovera-image-section {
+    height: 70lvb;
+  }
   .herbal-juice-and-powder-section {
     padding: 70px;
   }
@@ -1119,6 +1122,10 @@
   }
   .map {
     flex-direction: column;
+  }
+  /* contact-us-page */
+  .single-map {
+    height: 50lvh;
   }
 }
 @media (max-width: 768px) {
