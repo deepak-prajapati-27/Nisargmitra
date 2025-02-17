@@ -225,8 +225,10 @@
   .slogan-container {
     padding: 90px 50px;
   }
+
   .banner-container {
-    height: 217lvh;
+    height: 100%;
+    padding: 100px 0px 600px 0px;
   }
   .slogan-container h1 {
     font-size: 55px;
