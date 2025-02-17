@@ -184,9 +184,7 @@
   .certified-logo-img-div {
     width: 20%;
   }
-  .our-section-card {
-    max-height: 355px;
-  }
+
   .work-with-section h2 {
     font-size: 55px;
   }
@@ -281,7 +279,6 @@
   .our-section-card {
     width: 47%;
     padding: 29px;
-    max-height: 360px;
   }
   .work-with-section h2 {
     font-size: 55px;
@@ -545,7 +542,7 @@
   }
   .nav-ul {
     gap: 20px;
-    margin-right: 30px;
+    margin-right: 15px;
   }
   .logo-container {
     width: 17%;
@@ -942,6 +939,154 @@
     height: 100vh;
   }
 }
+@media (max-width: 894px) {
+  /* home-page */
+  .banner-container h1 {
+    font-size: 55px;
+  }
+  .nav-ul {
+    gap: 15px;
+    margin-right: 10px;
+  }
+  .nav-anchor {
+    font-size: 16px;
+  }
+  .banner-container {
+    height: 122lvh;
+  }
+  .bottle-branding {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .bottle-branding h2 {
+    text-align: center;
+  }
+  .bottle-branding-img-container {
+    width: 70%;
+  }
+  .fade-container h2 {
+    font-size: 48px;
+  }
+  /* about-us */
+  .intro-container {
+    padding: 70px;
+  }
+  .intro-para {
+    padding: 30px;
+    font-size: 13px;
+  }
+  .welcome-container {
+    padding: 70px;
+  }
+  .brands-container {
+    padding: 70px;
+  }
+  .brands-logo-img-div {
+    width: 20%;
+  }
+  .brands-logo-wrapper {
+    gap: 0px 39px;
+  }
+  .certified-container {
+    padding: 70px;
+  }
+  .our-section {
+    padding: 70px;
+  }
+  .our-section-card {
+    gap: 20px;
+    padding: 20px;
+  }
+  .work-with-section {
+    padding: 70px;
+  }
+  .quality-complaince-section {
+    padding: 70px;
+  }
+  .corporate-section {
+    padding: 70px;
+  }
+  .process-of-making-section {
+    padding: 70px;
+  }
+  .card-container-all {
+    gap: 30px;
+  }
+  /* perfume-page */
+  .perfume-video-title h2 {
+    font-size: 34px;
+  }
+  .guiding-perfume-card {
+    width: 46%;
+  }
+  .perfume-grade-alcohol-section {
+    padding: 70px;
+  }
+  .guiding-of-perfume-section {
+    padding: 70px;
+  }
+  .types-of-smell-section {
+    padding: 70px;
+  }
+  /* cosmetic-page */
+  .cosmetic-container-details {
+    padding-bottom: 25px;
+    padding-top: 10px;
+  }
+  .cosmetic-container-details a {
+    font-size: 30px;
+  }
+  .cosmetic-container {
+    padding: 70px;
+  }
+  /* wheatgrass-page */
+  .characteristics-and-properties-section {
+    padding: 70px;
+  }
+  .practicing-for-farming-section {
+    padding: 70px;
+  }
+  .wheat-grass-packaging-section {
+    padding: 70px;
+  }
+  .wheat-grass-benefit-section {
+    padding: 70px;
+  }
+  .wheat-grass-effect-section {
+    padding: 70px;
+  }
+  /* juie-page */
+  .juice-business-section {
+    padding: 70px;
+  }
+  .alovera-video-title h2 {
+    font-size: 34px;
+  }
+  .herbal-juice-and-powder-section {
+    padding: 70px;
+  }
+  .herbal {
+    padding: 30px;
+  }
+  .herbal-juice-and-powder-section h2 {
+    padding: 0px 30px;
+  }
+  /* trending-product-page */
+  .our-range-card-green-bg {
+    width: 48%;
+  }
+  .our-range-section-green-bg {
+    padding: 70px;
+  }
+  /* contact-us-page */
+  .contact-us-section {
+    padding: 70px;
+  }
+  .map {
+    flex-direction: column;
+  }
+}
 @media (max-width: 768px) {
   /* index page */
 
@@ -976,11 +1121,17 @@
   .hamburger .line {
     height: 4px;
   }
+  .banner-container h1 {
+    font-size: 42px;
+  }
   .slogan-container h1 {
     font-size: 33px;
   }
   .banner-container {
-    height: 138lvh;
+    height: 92lvh;
+  }
+  .bottle-branding-img-container {
+    width: 60%;
   }
   .bottle-branding {
     flex-direction: column;
