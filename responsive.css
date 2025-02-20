@@ -116,11 +116,13 @@
     height: 132lvh;
   } */
   /* juice page */
-  .alovera-image-section {
-    /* height: 200lvh; */
-  }
+
   .alovera-image-section h2 {
-    padding: 0px 0 20px;
+    /* padding: 0px 0 20px; */
+    top: 150px;
+    right: 100px;
+    padding: 0px;
+    font-size: 70px;
   }
   .alovera-video-title h2 {
     font-size: 55px;
@@ -448,10 +450,7 @@
     padding: 90px;
   }
   /* jucie page*/
-  .alovera-image-section {
-    height: 155lvh;
-    padding: 90px;
-  }
+
   .alovera-image-section h2 {
     font-size: 44px;
     padding: 0;
@@ -840,11 +839,10 @@
   .alovera-image-section h2 {
     font-size: 42px;
     padding: 0px;
+    top: 120px;
+    right: 80px;
   }
-  .alovera-image-section {
-    padding: 80px;
-    height: 150lvb;
-  }
+
   .juice-business-section h2 {
     font-size: 38px;
     padding: 20px;
@@ -1076,6 +1074,10 @@
     padding: 70px;
   }
   /* juie-page */
+  .alovera-image-section h2 {
+    top: 90px;
+    right: 60px;
+  }
   .juice-business-section {
     padding: 70px;
   }
@@ -1085,9 +1087,7 @@
   .alovera-video-title h2 {
     font-size: 34px;
   }
-  .alovera-image-section {
-    height: 70lvb;
-  }
+
   .herbal-juice-and-powder-section {
     padding: 70px;
   }
@@ -1535,12 +1535,10 @@
   /* juice page */
   .alovera-image-section h2 {
     font-size: 33px;
-    padding: 70px 0px;
+    top: 60px;
+    right: 30px;
   }
-  .alovera-image-section {
-    padding: 0px 30px 0px;
-    height: 130lvh;
-  }
+
   .juice-business-section {
     padding: 70px;
   }
@@ -2108,9 +2106,7 @@
     border-radius: 20px;
   }
   /* juice page */
-  .alovera-image-section {
-    padding: 55px 20px;
-  }
+
   .alovera-image-section h2 {
     font-size: 27px;
     padding: 0;
@@ -2361,11 +2357,12 @@
   .wheat-grass-effect-section h2 {
     font-size: 31px;
   }
-  .alovera-image-section {
-    height: 68lvh;
-  }
+  /* juice-section */
+
   .alovera-image-section h2 {
     font-size: 25px;
+    top: 50px;
+    right: 20px;
   }
   .juice-business-section h2 {
     font-size: 25px;
@@ -2719,17 +2716,12 @@
   }
 
   /* juice page */
-  .alovera-image-section {
-    height: 65vh;
-    padding: 30px 20px;
-  }
 
   .juice-business-section {
     padding: 40px;
   }
   .alovera-image-section h2 {
     font-size: 20px;
-    padding-top: 30px;
   }
   .herbal-juice-and-powder-section {
     padding: 40px;
@@ -3017,19 +3009,17 @@
   }
 
   /* juice page */
-  .alovera-image-section {
-    height: 60lvh;
-  }
+
   .alovera-image-section h2 {
     font-size: 19px;
     padding: 8px 0px;
+    top: 30px;
+    right: 10px;
   }
   .herbal ul {
     width: 100%;
   }
-  .alovera-image-section {
-    padding: 20px 20px;
-  }
+
   .juice-business-section {
     padding: 30px;
   }

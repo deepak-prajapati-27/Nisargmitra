@@ -1055,23 +1055,19 @@ footer {
 /* juice */
 /* alovera-image-section */
 .alovera-image-section {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0) 0%,
-      rgb(0 0 0 / 36%) 85%,
-      rgb(0 0 0) 100%
-    ),
-    url(images/alovera-juice.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  position: relative;
+}
+.alovera-image-section img {
+  /* width: 100%; */
+  /* padding: 100px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* gap: 100px; */
   width: 100%;
-  height: 150lvb;
-  padding: 100px;
-  text-align: end;
+  height: auto;
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  align-items: center;
 }
 .alovera-video-section {
   display: flex;
@@ -1080,8 +1076,12 @@ footer {
   opacity: 0.9;
   color: white;
   text-shadow: 1px 2px black;
-  font-size: 60px;
+  font-size: 80px;
   padding: 50px 0;
+  position: absolute;
+  top: 200px;
+  right: 300px;
+  text-align: end;
 }
 .alovera-image-section h3 {
   font-size: 30px;
