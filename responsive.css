@@ -19,7 +19,6 @@
   }
   .banner-container h1 {
     font-size: 65px;
-    padding-top: 0px;
   }
   .fade-container h2 {
     font-size: 70px;
@@ -932,6 +931,7 @@
   /* home-page */
   .banner-container h1 {
     font-size: 55px;
+    padding-top: 55px;
   }
   .nav-ul {
     gap: 15px;
@@ -948,9 +948,9 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
   }
-  .banner-container {
+  /* .banner-container {
     height: 140vh;
-  }
+  } */
   .nav-ul.show {
     display: flex;
     padding: 20px;
@@ -2282,6 +2282,7 @@
     gap: 50px;
     padding: 0px;
   }
+
   .fade-container {
     padding-top: 50px;
   }
@@ -2397,8 +2398,12 @@
   }
   .banner-container h1 {
     font-size: 25px;
+    padding: 20px;
   }
-
+  .nav-ul.show {
+    top: 70px;
+    right: 10px;
+  }
   .bottle-branding {
     padding: 0px;
     gap: 50px;
