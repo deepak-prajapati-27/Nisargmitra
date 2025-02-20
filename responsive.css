@@ -1678,7 +1678,10 @@
     top: 70px;
     right: 10px;
   }
-
+  .banner-container h1 {
+    font-size: 32px;
+    padding-top: 30px;
+  }
   /* nav-bar end */
   .slogan-container {
     padding: 50px;
