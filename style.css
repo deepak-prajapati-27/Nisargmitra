@@ -654,6 +654,9 @@ footer {
 }
 
 /* perfume-grade-alcohol-section */
+.perfume-video-section {
+  display: flex;
+}
 .perfume-grade-alcohol-section {
   padding: 100px;
   background-color: #1e201e;
@@ -803,6 +806,9 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
 }
+.cosmetic-banner-div {
+  display: flex;
+}
 .cosmetic-container-details {
   padding-bottom: 35px;
 }
@@ -836,7 +842,9 @@ footer {
 }
 /* wheat-grass */
 /* wheat-grass-video-section */
-
+.wheat-grass-video {
+  display: flex;
+}
 .wheat-grass-video-section {
   position: relative;
 }
@@ -1065,6 +1073,9 @@ footer {
   flex-direction: column;
   gap: 100px;
 }
+.alovera-video-section {
+  display: flex;
+}
 .alovera-image-section h2 {
   opacity: 0.9;
   color: white;
@@ -1182,7 +1193,9 @@ footer {
 /* trending-Products */
 
 /* trending-products-section */
-
+.trending-products-video-container {
+  display: flex;
+}
 .trending-product-video {
   opacity: 0.9;
 }
