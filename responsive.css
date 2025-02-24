@@ -955,6 +955,7 @@
     background-color: #3c3d37;
     top: 100px;
     right: 35px;
+    z-index: 19;
   }
   .logo-container {
     width: 30%;
