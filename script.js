@@ -21,4 +21,8 @@ backToTopButton.addEventListener("click", () => {
 
 // video
 
-document.getElementById("myVideo").play();
+// document.getElementById("myVideo").play();
+document.addEventListener("DOMContentLoaded", function () {
+  let video = document.getElementById("myVideo");
+  video.play().catch((error) => console.log("Autoplay blocked:", error));
+});
