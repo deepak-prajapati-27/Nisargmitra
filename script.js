@@ -18,3 +18,7 @@ backToTopButton.addEventListener("click", () => {
     behavior: "smooth", // Smooth scrolling
   });
 });
+
+// video
+
+document.getElementById("myVideo").play();
