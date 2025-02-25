@@ -2399,7 +2399,7 @@
   }
   .banner-container h1 {
     font-size: 25px;
-    padding: 20px;
+    padding: 20px 0px;
   }
   .nav-ul.show {
     top: 70px;
