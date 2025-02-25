@@ -20,9 +20,33 @@ backToTopButton.addEventListener("click", () => {
 });
 
 // video
-
-// document.getElementById("myVideo").play();
+// wheat-grass-video
 document.addEventListener("DOMContentLoaded", function () {
   let video = document.getElementById("myVideo");
+  video.play().catch((error) => console.log("Autoplay blocked:", error));
+});
+//index-video
+document.addEventListener("DOMContentLoaded", function () {
+  let video = document.getElementById("index-video");
+  video.play().catch((error) => console.log("Autoplay blocked:", error));
+});
+// cosmetic-video
+document.addEventListener("DOMContentLoaded", function () {
+  let video = document.getElementById("cosmetic-video");
+  video.play().catch((error) => console.log("Autoplay blocked:", error));
+});
+// perfume-video
+document.addEventListener("DOMContentLoaded", function () {
+  let video = document.getElementById("perfume-video");
+  video.play().catch((error) => console.log("Autoplay blocked:", error));
+});
+// juice-video
+document.addEventListener("DOMContentLoaded", function () {
+  let video = document.getElementById("juice-video");
+  video.play().catch((error) => console.log("Autoplay blocked:", error));
+});
+// trending-product-video
+document.addEventListener("DOMContentLoaded", function () {
+  let video = document.getElementById("trending-product-video");
   video.play().catch((error) => console.log("Autoplay blocked:", error));
 });
